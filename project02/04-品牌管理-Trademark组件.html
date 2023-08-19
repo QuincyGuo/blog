@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>静态组件 | QuincyGuo的博客</title>
+    <meta name="generator" content="VuePress 1.9.9">
+    
+    <meta name="description" content="QuincyGuo记录学习笔记的地方">
+    
+    <link rel="preload" href="/blog/assets/css/0.styles.517234e0.css" as="style"><link rel="preload" href="/blog/assets/js/app.da6f0918.js" as="script"><link rel="preload" href="/blog/assets/js/3.31f72e99.js" as="script"><link rel="preload" href="/blog/assets/js/1.66bfa7cb.js" as="script"><link rel="preload" href="/blog/assets/js/15.9ece246a.js" as="script"><link rel="prefetch" href="/blog/assets/js/10.2b38e72b.js"><link rel="prefetch" href="/blog/assets/js/11.f8c71519.js"><link rel="prefetch" href="/blog/assets/js/12.710fd6c0.js"><link rel="prefetch" href="/blog/assets/js/13.44052457.js"><link rel="prefetch" href="/blog/assets/js/14.f25c266d.js"><link rel="prefetch" href="/blog/assets/js/16.86059fd5.js"><link rel="prefetch" href="/blog/assets/js/17.c4276fe9.js"><link rel="prefetch" href="/blog/assets/js/18.88e0f881.js"><link rel="prefetch" href="/blog/assets/js/19.ada81520.js"><link rel="prefetch" href="/blog/assets/js/20.f73ffdc5.js"><link rel="prefetch" href="/blog/assets/js/21.7ce2f3dd.js"><link rel="prefetch" href="/blog/assets/js/22.c1352cbb.js"><link rel="prefetch" href="/blog/assets/js/23.685342e3.js"><link rel="prefetch" href="/blog/assets/js/24.59f99b66.js"><link rel="prefetch" href="/blog/assets/js/25.332b41f3.js"><link rel="prefetch" href="/blog/assets/js/26.a4d6827e.js"><link rel="prefetch" href="/blog/assets/js/27.6f0e2396.js"><link rel="prefetch" href="/blog/assets/js/28.1c0009e8.js"><link rel="prefetch" href="/blog/assets/js/29.58aa4104.js"><link rel="prefetch" href="/blog/assets/js/30.ca8df5cd.js"><link rel="prefetch" href="/blog/assets/js/31.cd1b173f.js"><link rel="prefetch" href="/blog/assets/js/32.d3fa4616.js"><link rel="prefetch" href="/blog/assets/js/33.468a9d41.js"><link rel="prefetch" href="/blog/assets/js/34.648a6bf2.js"><link rel="prefetch" href="/blog/assets/js/35.5137f8c8.js"><link rel="prefetch" href="/blog/assets/js/36.61ffc937.js"><link rel="prefetch" href="/blog/assets/js/37.e984efff.js"><link rel="prefetch" href="/blog/assets/js/38.789114bb.js"><link rel="prefetch" href="/blog/assets/js/39.335bf6a5.js"><link rel="prefetch" href="/blog/assets/js/4.069e1d11.js"><link rel="prefetch" href="/blog/assets/js/40.cc63a04d.js"><link rel="prefetch" href="/blog/assets/js/41.ab4563a7.js"><link rel="prefetch" href="/blog/assets/js/42.a9562e76.js"><link rel="prefetch" href="/blog/assets/js/43.a5a460c1.js"><link rel="prefetch" href="/blog/assets/js/44.8fc6e8bc.js"><link rel="prefetch" href="/blog/assets/js/45.8a098be8.js"><link rel="prefetch" href="/blog/assets/js/46.b0a79868.js"><link rel="prefetch" href="/blog/assets/js/47.b6a7d238.js"><link rel="prefetch" href="/blog/assets/js/48.41f3fb63.js"><link rel="prefetch" href="/blog/assets/js/49.0c30d2c1.js"><link rel="prefetch" href="/blog/assets/js/5.7ce3c667.js"><link rel="prefetch" href="/blog/assets/js/50.1bce5996.js"><link rel="prefetch" href="/blog/assets/js/51.92f7cc75.js"><link rel="prefetch" href="/blog/assets/js/52.b086688e.js"><link rel="prefetch" href="/blog/assets/js/53.7d77ed0c.js"><link rel="prefetch" href="/blog/assets/js/54.da2522ff.js"><link rel="prefetch" href="/blog/assets/js/55.e7a2a247.js"><link rel="prefetch" href="/blog/assets/js/56.1722bcd4.js"><link rel="prefetch" href="/blog/assets/js/57.641fdfff.js"><link rel="prefetch" href="/blog/assets/js/58.f820535c.js"><link rel="prefetch" href="/blog/assets/js/59.b87b5b36.js"><link rel="prefetch" href="/blog/assets/js/6.9c5bd94c.js"><link rel="prefetch" href="/blog/assets/js/60.7cdf3e60.js"><link rel="prefetch" href="/blog/assets/js/61.d566c069.js"><link rel="prefetch" href="/blog/assets/js/7.5d2d87e4.js"><link rel="prefetch" href="/blog/assets/js/8.2fe6f6e4.js"><link rel="prefetch" href="/blog/assets/js/9.d1107a3f.js">
+    <link rel="stylesheet" href="/blog/assets/css/0.styles.517234e0.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container" data-v-7dd95ae2><div data-v-7dd95ae2><div class="password-shadow password-wrapper-out" style="display:none;" data-v-59e6cb88 data-v-7dd95ae2 data-v-7dd95ae2><h3 class="title" data-v-59e6cb88>QuincyGuo的博客</h3> <p class="description" data-v-59e6cb88>QuincyGuo记录学习笔记的地方</p> <label id="box" class="inputBox" data-v-59e6cb88><input type="password" value="" data-v-59e6cb88> <span data-v-59e6cb88>Konck! Knock!</span> <button data-v-59e6cb88>OK</button></label> <div class="footer" data-v-59e6cb88><span data-v-59e6cb88><i class="iconfont reco-theme" data-v-59e6cb88></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-59e6cb88>vuePress-theme-reco</a></span> <span data-v-59e6cb88><i class="iconfont reco-copyright" data-v-59e6cb88></i> <a data-v-59e6cb88><!---->
+          
+        <!---->
+        2023
+      </a></span></div></div> <div class="hide" data-v-7dd95ae2><header class="navbar" data-v-7dd95ae2><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/blog/" class="home-link router-link-active"><!----> <span class="site-name">QuincyGuo的博客</span></a> <div class="links"><div class="color-picker"><a class="color-button"><i class="iconfont reco-color"></i></a> <div class="color-picker-menu" style="display:none;"><div class="mode-options"><h4 class="title">Choose mode</h4> <ul class="color-mode-options"><li class="dark">dark</li><li class="auto active">auto</li><li class="light">light</li></ul></div></div></div> <div class="search-box"><i class="iconfont reco-search"></i> <input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/blog/project01/01-项目初始化.html" class="nav-link"><i class="undefined"></i>
+  PROJECT-SHOPING
+</a></div><div class="nav-item"><a href="/blog/project02/01-项目初始化.html" class="nav-link"><i class="undefined"></i>
+  PROJECT-MANAGE
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="undefined"></i>
+      HTML&amp;CSS
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blog/html/01-标签.html" class="nav-link"><i class="undefined"></i>
+  HTML
+</a></li><li class="dropdown-item"><!----> <a href="/blog/css/01-基本知识.html" class="nav-link"><i class="undefined"></i>
+  CSS
+</a></li></ul></div></div><div class="nav-item"><a href="/blog/js/基础知识.html" class="nav-link"><i class="undefined"></i>
+  JAVASCRIPT
+</a></div><div class="nav-item"><a href="/blog/dataVisualization/01-canvas.html" class="nav-link"><i class="undefined"></i>
+  DATA-VISUALIZATION
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="undefined"></i>
+      OTHER WEBSITES
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://github.com/quincyguo" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="undefined"></i>
+  Github
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask" data-v-7dd95ae2></div> <aside class="sidebar" data-v-7dd95ae2><div class="personal-info-wrapper" data-v-1fad0c41 data-v-7dd95ae2><!----> <!----> <div class="num" data-v-1fad0c41><div data-v-1fad0c41><h3 data-v-1fad0c41>49</h3> <h6 data-v-1fad0c41>Articles</h6></div> <div data-v-1fad0c41><h3 data-v-1fad0c41>0</h3> <h6 data-v-1fad0c41>Tags</h6></div></div> <ul class="social-links" data-v-1fad0c41></ul> <hr data-v-1fad0c41></div> <nav class="nav-links"><div class="nav-item"><a href="/blog/project01/01-项目初始化.html" class="nav-link"><i class="undefined"></i>
+  PROJECT-SHOPING
+</a></div><div class="nav-item"><a href="/blog/project02/01-项目初始化.html" class="nav-link"><i class="undefined"></i>
+  PROJECT-MANAGE
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="undefined"></i>
+      HTML&amp;CSS
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blog/html/01-标签.html" class="nav-link"><i class="undefined"></i>
+  HTML
+</a></li><li class="dropdown-item"><!----> <a href="/blog/css/01-基本知识.html" class="nav-link"><i class="undefined"></i>
+  CSS
+</a></li></ul></div></div><div class="nav-item"><a href="/blog/js/基础知识.html" class="nav-link"><i class="undefined"></i>
+  JAVASCRIPT
+</a></div><div class="nav-item"><a href="/blog/dataVisualization/01-canvas.html" class="nav-link"><i class="undefined"></i>
+  DATA-VISUALIZATION
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="undefined"></i>
+      OTHER WEBSITES
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://github.com/quincyguo" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="undefined"></i>
+  Github
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></div></div> <!----></nav> <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><a href="/blog/project02/01-项目初始化" class="sidebar-heading clickable open"><span>PROJECT-MANAGE</span> <!----></a> <ul class="sidebar-links sidebar-group-items"><li><a href="/blog/project02/01-项目初始化.html" class="sidebar-link">01-项目初始化</a></li><li><a href="/blog/project02/02-项目路由配置.html" class="sidebar-link">02-项目路由配置</a></li><li><a href="/blog/project02/03-登录业务-Login组件.html" class="sidebar-link">03-登录业务-Login组件</a></li><li><a href="/blog/project02/04-品牌管理-Trademark组件.html" class="active sidebar-link">04-品牌管理-Trademark组件</a></li><li><a href="/blog/project02/05-平台属性管理-Attrs组件.html" class="sidebar-link">05-平台属性管理-Attrs组件</a></li><li><a href="/blog/project02/06-SPU管理-Spu组件.html" class="sidebar-link">06-SPU管理-Spu组件</a></li><li><a href="/blog/project02/07-SPU编辑-SpuForm组件.html" class="sidebar-link">07-SPU编辑-SpuForm组件</a></li><li><a href="/blog/project02/08-SKU添加-SkuForm组件.html" class="sidebar-link">08-SKU添加-SkuForm组件</a></li><li><a href="/blog/project02/09-SKU管理-Sku组件.html" class="sidebar-link">09-SKU管理-Sku组件</a></li><li><a href="/blog/project02/10-图表-DashBoard组件.html" class="sidebar-link">10-图表-DashBoard组件</a></li></ul></section></li></ul> </aside> <div class="password-shadow password-wrapper-in" style="display:none;" data-v-59e6cb88 data-v-7dd95ae2><h3 class="title" data-v-59e6cb88></h3> <!----> <label id="box" class="inputBox" data-v-59e6cb88><input type="password" value="" data-v-59e6cb88> <span data-v-59e6cb88>Konck! Knock!</span> <button data-v-59e6cb88>OK</button></label> <div class="footer" data-v-59e6cb88><span data-v-59e6cb88><i class="iconfont reco-theme" data-v-59e6cb88></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-59e6cb88>vuePress-theme-reco</a></span> <span data-v-59e6cb88><i class="iconfont reco-copyright" data-v-59e6cb88></i> <a data-v-59e6cb88><!---->
+          
+        <!---->
+        2023
+      </a></span></div></div> <div data-v-7dd95ae2><div data-v-7dd95ae2><main class="page"><section style="display:;"><div class="page-title"><h1 class="title">静态组件</h1> <div data-v-8a445198><!----> <!----> <!----> <!----></div></div> <div class="theme-reco-content content__default"><h2 id="静态组件"><a href="#静态组件" class="header-anchor">#</a> 静态组件</h2> <img src="/blog/assets/img/brandingPage.c4af5884.png"> <img src="/blog/assets/img/brandingPage-addBranding.db2242f5.png"> <h3 id="el-button-按钮组件"><a href="#el-button-按钮组件" class="header-anchor">#</a> el-button 按钮组件</h3> <div class="language- extra-class"><pre class="language-text"><code>&lt;el-button type=&quot;primary&quot; icon=&quot;el-icon-plus&quot; style=&quot;margin:10px 0px&quot; 
+		   @click=&quot;addTradeMark&quot;
+		   :disabled=&quot;!category3Id&quot;&gt;添加&lt;/el-button&gt;
+
+// type是按钮类型，不同类型的按钮有不同的样式；icon=&quot;el-icon-plus&quot;是按钮上的图标，el-icon是element-ui的图标库       
+</code></pre></div><h3 id="el-table-el-table-column-表格组件"><a href="#el-table-el-table-column-表格组件" class="header-anchor">#</a> el-table el-table-column 表格组件</h3> <div class="language- extra-class"><pre class="language-text"><code>&lt;el-table :data=list border&gt;
+    &lt;el-table-column label=&quot;序号&quot; type=&quot;index&quot; width='50px' align=&quot;center&quot;&gt; &lt;/el-table-column&gt;
+    &lt;el-table-column prop=&quot;tmName&quot; label=&quot;品牌名称&quot; width='width'&gt; &lt;/el-table-column&gt;
+&lt;/el-table&gt;
+
+data() {
+    return {
+        list: [
+        	tmName:'',
+        	logoUrl:'',
+        ],
+}}
+
+// :data属性用于表格数据的收集；其属性值一般是数组；表格是竖向，按照一列一列来完成数据分配的；		border：表格边框
+
+// 序号列：label=&quot;序号&quot; type=&quot;index&quot;，有这两个字段即可完成序号列的自动填充
+// 数据列：prop=&quot;tmName&quot;，tmName是data:list中的子属性，有这个字段，就会自动把list数组中每一项的tmName属性，按数组顺序显示到这列中。
+// 选择列：每行的第一列是多选控件，handleSelectionChange是选择发生变化时的回调函数。
+	&lt;el-table @selection-change=&quot;handleSelectionChange&quot;&gt;
+		&lt;el-table-column type=&quot;selection&quot; width=&quot;60px&quot;&gt;&lt;/el-table-column&gt;
+	handleSelectionChange (val) {
+       //参数val 用户选中的行的数据组成的数组[{行一},{行二}]
+       this.selectedImgList = val;
+    },
+// width='width'，width属性可以分配固定的数值宽度，也可以是width属性值，代表均分；	label是每列的标题
+</code></pre></div><h3 id="表格单元格内展示非文本数据"><a href="#表格单元格内展示非文本数据" class="header-anchor">#</a> 表格单元格内展示非文本数据</h3> <div class="language- extra-class"><pre class="language-text"><code>&lt;el-table :data=list border&gt;
+    &lt;el-table-column label=&quot;品牌logo&quot; width='width'&gt;
+        &lt;template slot-scope=&quot;{row,$index}&quot;&gt;
+            &lt;img :src=&quot;row.logoUrl&quot; style=&quot;width:40px;height:40px;&quot;&gt;
+            &lt;el-button type=&quot;warning&quot; icon=&quot;el-icon-edit&quot; size=&quot;mini&quot;
+                       @click=&quot;updateTradeMark(row)&quot;&gt;修改&lt;/el-button&gt;
+        &lt;/template&gt;
+    &lt;/el-table-column&gt;
+&lt;/el-table&gt;
+</code></pre></div><p>这里使用了作用域插槽。<strong>作用域插槽的原理一句话就是，子留下插槽，由父组件书写结构外观并传递过去显示。</strong>
+在这里可见的代码都是父组件的代码；而子组件是单元格，是由element-ui封装好的，在这里见不到。所以，这里书写的img是父组件要传递给子组件单元格里面显示的。</p> <p><strong>row应该也是单元格子组件封装好传过来的数据。其内容是data:list中当前行的整行数据。row也可以代表本行数据，作为调用组件内函数的参数</strong></p> <p><strong>$index同理，其内容是data:list中当前行的顺序，从0开始计算。</strong></p> <h3 id="el-pagination-分页器"><a href="#el-pagination-分页器" class="header-anchor">#</a> el-pagination 分页器</h3> <div class="language- extra-class"><pre class="language-text"><code>&lt;el-pagination :total=&quot;total&quot;
+               :current-page=&quot;currentPage&quot;
+               :page-size=&quot;pageDataCountNow&quot;
+               :page-sizes=&quot;pageDataCount&quot;
+               @current-change=&quot;&quot;
+               @size-change=&quot;&quot;
+               layout=&quot;prev, pager, next, jumper, -&gt;, sizes, total&quot;
+               style=&quot;margin-top:20px;text-align:center;&quot;&gt;
+&lt;/el-pagination&gt;
+
+data() {
+    return {
+        currentPage: 1,   // 分页器当前页
+        pageDataCountNow: 3,  // 当前每页要展示的数据个数
+        pageDataCount: [3, 5, 10],  // 当前每页要展示的数据个数列表
+        total: 0,   // 总共的数据个数
+}}
+
+// :total、:current-page、:page-size、:page-sizes 都是分页器需要的数据。分别代表数据总数、目前所在页数、当前每页展示多少条数据、每页展示数据条数的切换数组。
+// @current-change是用户切换页码时的触发函数，需要为其书写回调函数。
+// @size-change是用户切换每页展示数据条数时的触发函数，需要为其书写回调函数。
+// layout是分页器内各个子控件的排列顺序。如上面代码，排列顺序就是上一页、页码、下一页、页码跳转、每页展示条数、页码总数。
+</code></pre></div><h3 id="el-upload-上传组件"><a href="#el-upload-上传组件" class="header-anchor">#</a> el-upload 上传组件</h3> <div class="language- extra-class"><pre class="language-text"><code>1、上传组件的定义：
+&lt;el-upload action=&quot;/dev-api/admin/product/fileUpload&quot;
+           :show-file-list=&quot;false&quot;
+           :on-success=&quot;&quot;
+           :before-upload=&quot;&quot;&gt;
+    // 下面两句是：如果上传成功，data里就会有图片，就在上传按钮处显示图片；否则就显示一个上传图标
+	&lt;img v-if=&quot;tradeMarkForm.logoUrl&quot; :src=&quot;tradeMarkForm.logoUrl&quot;&gt;
+    &lt;i v-else class=&quot;el-icon-plus avatar-uploader-icon&quot;&gt;&lt;/i&gt;
+    &lt;div slot=&quot;tip&quot; class=&quot;el-upload__tip&quot;&gt;只能上传jpg文件，且不超过500kb&lt;/div&gt;
+&lt;/el-upload&gt;
+
+// action：要上传的网站路径
+   :show-file-list：是否可上传多张
+   :on-success：图片上传到服务器成功，执行一次该触发函数
+   :before-upload：上传前的触发函数
+</code></pre></div><div class="language- extra-class"><pre class="language-text"><code>2、上传前的函数：判断上传文件的文件类型和大小
+beforeAvatarUpload (file) {
+    const isJPG = file.type === 'image/jpeg';
+    const isLt2M = file.size / 1024 / 1024 &lt; 2;
+    if (!isJPG) {
+    	this.$message.error('上传头像图片只能是 JPG 格式!');
+    }
+    if (!isLt2M) {
+    	this.$message.error('上传头像图片大小不能超过 2MB!');
+    }
+    return isJPG &amp;&amp; isLt2M;
+},
+</code></pre></div><div class="language- extra-class"><pre class="language-text"><code>3、上传成功后的函数：获取文件上传后，在服务器的路径
+handleAvatarSuccess (res, file) {
+	// 实际上要看后端具体是如何定义的：上传成功后，服务器会给前端返回什么数据
+	// 这处代码，res.data 就是服务器返回的文件上传后在服务器的路径。
+    this.tradeMarkForm.logoUrl = res.data;
+},
+</code></pre></div><h3 id="el-upload-上传组件-可上传多个文件"><a href="#el-upload-上传组件-可上传多个文件" class="header-anchor">#</a> el-upload 上传组件-可上传多个文件</h3> <div class="language- extra-class"><pre class="language-text"><code>1、上传组件的定义：
+&lt;el-upload action=&quot;/dev-api/admin/product/fileUpload&quot;
+           list-type=&quot;picture-card&quot;
+           :on-preview=&quot;handlePictureCardPreview&quot;
+           :on-remove=&quot;handleRemove&quot;
+           :on-success=&quot;handlerSuccess&quot;
+           :file-list=&quot;spuImageList&quot;&gt;
+	&lt;i class=&quot;el-icon-plus&quot;&gt;&lt;/i&gt;
+&lt;/el-upload&gt;
+&lt;el-dialog :visible.sync=&quot;dialogVisible&quot;&gt;
+	&lt;img width=&quot;70%&quot; :src=&quot;dialogImageUrl&quot;&gt;
+&lt;/el-dialog&gt;
+
+// action：要上传的网站路径		list-type：文件列表的类型（text/picture/picture-card）
+// on-preview：	点击文件列表中已上传的文件时的触发函数
+// on-remove：	文件列表移除文件时的触发函数
+// on-success：	图片上传到服务器成功，执行一次该触发函数
+// file-list：	已上传的文件列表的相关数据；是一个对象数组。
+
+// dialogVisible：组件内定义的数据，控制预览图片的对话框的显示与否
+// dialogImageUrl：组件内定义的数据，要预览查看的文件地址
+
+// :file-list=&quot;spuImageList&quot;，数据的定义要求：
+spuImageList首先定义为空；
+上传成功后，this.spuImageList = fileList;这时，spuImageList会有上传的服务器返回的文件列表数据，包括name、url、response、size、status等；
+传递给服务器时，如果服务器需要的是其他名称的属性（比如imgUrl），则还需要给spuImageList内的每个对象再添加其他属性。
+</code></pre></div><div class="language- extra-class"><pre class="language-text"><code>2、预览图片的回调函数
+handlePictureCardPreview (file) {
+    this.dialogImageUrl = file.url;
+    this.dialogVisible = true;
+},
+
+3、删除图片的回调函数
+handleRemove (file, fileList) {
+    // file参数：代表的是删除的那个图片  filelist：照片墙删除某一张图片以后，剩余的其他的图片
+    this.spuImageList = fileList;
+},
+
+4、添加图片的回调函数
+handlerSuccess (response, file, fileList) {
+    // response：上传成功后服务器返回的信息，包括code，data(图片在服务器的路径)，message等    
+    // file参数：上传成功的那个图片    
+    // filelist：照片墙上传一张图片以后，所有图片的相关数据
+    this.spuImageList = fileList;
+},
+</code></pre></div><h3 id="messagebox-消息弹框"><a href="#messagebox-消息弹框" class="header-anchor">#</a> messageBox 消息弹框</h3> <p>比如，用户点击删除时，弹出消息框提示是否删除，点击确定/取消，会导向不同的操作。</p> <div class="language- extra-class"><pre class="language-text"><code>deleteTradeMark (row) {
+    this.$confirm(`是否确定删除【${row.tmName}】`, '提示', {
+    	confirmButtonText: '确定',
+    	cancelButtonText: '取消',
+    	type: 'warning'
+    	// row.tmName 是待删除的数据名；		'提示'：是消息框标题；		type：消息框文本前的图标
+    }).then(async () =&gt; {
+        // 点击确定按钮后的代码：有异步代码
+        let result = await this.$API.tradeMark.reqDeleteTradeMark(row.id);
+        if (result.code == 200) {
+        ...
+        }
+    }).catch(() =&gt; {
+    	// 点击取消按钮时触发
+    	...
+    });
+}
+</code></pre></div><h2 id="进入离开组件"><a href="#进入离开组件" class="header-anchor">#</a> 进入离开组件</h2> <p>切换页面左侧的侧边栏，实现对路由的切换。</p> <h2 id="生命周期"><a href="#生命周期" class="header-anchor">#</a> 生命周期</h2> <p>1、mounted ()</p> <p>调用getPageList方法；组件向服务器发送”获取品牌列表“的网络请求，如果服务器返回的result正常，则将返回的数据保存到组件的data中，以供后续使用。</p> <h2 id="数据"><a href="#数据" class="header-anchor">#</a> 数据</h2> <table><thead><tr><th>名称</th> <th>数据类型</th> <th>所属</th> <th>数据介绍</th></tr></thead> <tbody><tr><td>currentPage</td> <td>number</td> <td>data</td> <td>分页器-当前页</td></tr> <tr><td>total</td> <td>number</td> <td>data</td> <td>分页器-总共的数据个数</td></tr> <tr><td>page-size</td> <td>number</td> <td>data</td> <td>分页器-当前每页展示多少条数据</td></tr> <tr><td>page-sizes</td> <td>数组</td> <td>data</td> <td>分页器-每页展示数据条数的切换数组</td></tr> <tr><td>list</td> <td>数组</td> <td>data</td> <td>当前页要展示的数据列表</td></tr> <tr><td>dialogFormVisible</td> <td>Boolean</td> <td>data</td> <td>添加/修改品牌的对话框的显示隐藏</td></tr> <tr><td>tradeMarkForm</td> <td>对象</td> <td>data</td> <td>增加/修改的品牌信息</td></tr> <tr><td>rules</td> <td>对象</td> <td>data</td> <td>品牌信息数据的验证规则</td></tr> <tr><td>validatePass</td> <td>函数</td> <td>data</td> <td>品牌信息的校验规则，仅限data内部的数据rules使用</td></tr></tbody></table> <h2 id="api"><a href="#api" class="header-anchor">#</a> API</h2> <p>1、获取品牌列表数据</p> <div class="language- extra-class"><pre class="language-text"><code>地址：/admin/product/baseTrademark/{page}/{limit}	请求方式：get	参数：page第几页	limit每页数据展示个数
+export const reqTradeMarkList = (page, limit) =&gt;
+	request({ url: `/admin/product/baseTrademark/${page}/${limit}`, method: &quot;get&quot; });
+</code></pre></div><p>2、新增/修改品牌数据</p> <div class="language- extra-class"><pre class="language-text"><code>1、新增
+地址：/admin/product/baseTrademark/save		请求方式：post		参数：data{tmName品牌名称，logoUrl品牌logo图片路径}
+2、修改
+地址：/admin/product/baseTrademark/update		请求方式：put		参数：data{id品牌id，tmName品牌名称，logoUrl品牌logo图片路径}
+两个API的区别：新增品牌传给服务器的参数没有id，所以将两个请求合一，通过参数有无id进行区分。
+
+export const reqAddOrUpdateTradeMark = (tradeMark) =&gt; {
+	if (tradeMark.id) {
+    	return request({ url: `/admin/product/baseTrademark/update`, method: &quot;put&quot;, data: tradeMark });
+    } 
+	else {
+    	return request({ url: `/admin/product/baseTrademark/save`, method: &quot;post&quot;, data: tradeMark });
+    }
+};
+</code></pre></div><p>3、删除品牌数据</p> <div class="language- extra-class"><pre class="language-text"><code>地址：/admin/product/baseTrademark/remove/{id} 	请求方式：delete		参数：id品牌id
+export const reqDeleteTradeMark = (id) =&gt;
+  request({ url: `/admin/product/baseTrademark/remove/${id}`, method: &quot;delete&quot; });
+</code></pre></div><h2 id="methods"><a href="#methods" class="header-anchor">#</a> methods</h2> <p>1、getPageList()	获取品牌列表数据</p> <div class="language- extra-class"><pre class="language-text"><code>1、参数：无
+
+2、函数内容：
+2.1、获取到当前页码等数据，调用API-获取品牌列表；等待服务器返回结果；如果结果成功，将服务器返回的品牌列表数据保存到组件data中；
+2.2、失败则提示失败原因；
+</code></pre></div><p>2、addTradeMark()	新增品牌</p> <div class="language- extra-class"><pre class="language-text"><code>1、参数：无
+
+2、函数内容：
+2.1、显示新增/修改品牌对话框；
+2.2、将收集品牌信息的data:tradeMarkForm置为空，等待用户输入。
+</code></pre></div><p>3、updateTradeMark(row)	修改品牌</p> <div class="language- extra-class"><pre class="language-text"><code>1、参数：row 待修改的品牌信息数据
+
+2、函数内容：
+2.1、显示新增/修改品牌对话框；
+2.2、将 row 赋给 data:tradeMarkForm，等待用户修改。
+</code></pre></div><p>4、addOrUpdateTradeMark()	确定新增/修改</p> <div class="language- extra-class"><pre class="language-text"><code>1、参数：无
+
+2、函数内容：
+2.1、判断表单内的元素是否全部通过验证；
+2.2、如果验证通过，则调用API-新增/修改品牌数据，等待服务器返回结果；如果返回结果成功，则弹出消息提示，关闭对话框，并切换页码至合适页码（修改：当前页；新增：最后一页）；
+2.3、如果返回结果失败，则提示失败原因；
+</code></pre></div><p>5、deleteTradeMark(row)	删除品牌</p> <div class="language- extra-class"><pre class="language-text"><code>1、参数：row 待删除的品牌信息数据
+
+2、函数内容：
+2.1、弹出消息框提示是否确定删除；
+2.2、确定删除，则调用API-删除品牌数据，等待服务器返回结果；如果返回结果成功，则弹出消息提示，并切换页码至合适页码（判断本页是否还有数据，有则停留本页，没有则切换至上一页）；
+2.3、取消删除，则弹出消息提示。
+</code></pre></div><p>6、 beforeAvatarUpload (file)	上传到组件前的函数</p> <div class="language- extra-class"><pre class="language-text"><code>1、参数：file 待上传的文件
+
+2、函数内容：
+2.1、判断待上传文件的类型和大小；
+2.2、不满足条件，则弹出消息提示，并return false。
+2.3、满足条件，不做干涉，upLoad组件会自动将文件上传到设置好的路径。
+</code></pre></div><p>7、handleAvatarSuccess (res, file)	上传到组件成功的函数</p> <div class="language- extra-class"><pre class="language-text"><code>1、参数：res, file 上传成功后，服务器返回给前端的数据；实际上要看后端具体是如何定义
+
+2、函数内容：
+2.1、获取服务器返回的数据，并将其中的上传成功后的文件的路径，赋值给data:tradeMarkForm，以在页面上显示。
+</code></pre></div><p>8、handlerCurrentChange (page)	切换页码</p> <div class="language- extra-class"><pre class="language-text"><code>1、参数：page 切换后新的页码
+
+2、函数内容：
+2.1、将切换页码后新的页码page赋值给data:currentPage；
+2.2、调用methods:getPageList()，获取本页的品牌列表数据
+</code></pre></div><p>9、handleSizeChange(count)	切换每页列表数据的个数</p> <div class="language- extra-class"><pre class="language-text"><code>1、参数：count 切换后新的每页数据的个数
+
+2、函数内容：
+2.1、将切换页码后新的每页数据的个数count赋值给data:pageDataCountNow；
+2.2、调用methods:getPageList()，获取本页的品牌列表数据
+</code></pre></div><h2 id="功能点"><a href="#功能点" class="header-anchor">#</a> 功能点</h2> <p>1、页面数据动态展示</p> <p>组件在mounted阶段，获取到初始的当前页码等数据；之后调用获取品牌列表数据的API，向服务器发送请求；服务器返回成功则将返回的数据保存到组件data中；页面在展示时，使用相应的属性即可。</p> <p>用户使用阶段，切换页码、切换每页数据个数等操作，组件获取到当前页码等数据；...（与上面一致）。</p> <p>2、新增品牌数据</p> <p>用户点击新增按钮，弹出新增品牌的对话框；</p> <p>用户在对话框进行输入数据、上传文件等操作，用户操作的同时组件对数据进行验证，以确保新增数据的合法性；</p> <p>用户点击确定新增，组件判断表单所有的验证是否全部通过；全部通过则调用新增品牌数据的API，向服务器发送请求；服务器返回成功则弹出消息框提示，关闭对话框并切换至合适的页码。</p> <p>3、修改品牌数据</p> <p>用户点击修改按钮，弹出修改品牌的对话框；并将待修改的数据显示到表单中；</p> <p>用户在对话框上的操作和新增数据一致，操作的同时进行验证；</p> <p>用户点击确定修改，验证全部通过后，调用修改品牌数据的API，向服务器发送请求；服务器返回成功则弹出消息框提示，关闭对话框并切换至合适的页码。</p> <p>4、删除品牌数据</p> <p>用户点击删除按钮，弹出是否确定删除的消息框；确定删除后，则调用删除品牌数据的API，向服务器发送请求；服务器返回成功则弹出消息框提示，切换至合适的页码。</p></div></section> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev"><a href="/blog/project02/03-登录业务-Login组件.html" class="prev">
+          03-登录业务-Login组件
+        </a></span> <span class="next"><a href="/blog/project02/05-平台属性管理-Attrs组件.html">
+          05-平台属性管理-Attrs组件
+        </a></span></p></div> <div class="comments-wrapper"><!----></div></main></div> <!----></div> <ul class="sub-sidebar sub-sidebar-wrapper" style="width:12rem;" data-v-b57cc07c data-v-7dd95ae2><li class="level-2" data-v-b57cc07c><a href="/blog/project02/04-%E5%93%81%E7%89%8C%E7%AE%A1%E7%90%86-Trademark%E7%BB%84%E4%BB%B6.html#静态组件" class="sidebar-link reco-side-静态组件" data-v-b57cc07c>静态组件</a></li><li class="level-3" data-v-b57cc07c><a href="/blog/project02/04-%E5%93%81%E7%89%8C%E7%AE%A1%E7%90%86-Trademark%E7%BB%84%E4%BB%B6.html#el-button-按钮组件" class="sidebar-link reco-side-el-button-按钮组件" data-v-b57cc07c>el-button 按钮组件</a></li><li class="level-3" data-v-b57cc07c><a href="/blog/project02/04-%E5%93%81%E7%89%8C%E7%AE%A1%E7%90%86-Trademark%E7%BB%84%E4%BB%B6.html#el-table-el-table-column-表格组件" class="sidebar-link reco-side-el-table-el-table-column-表格组件" data-v-b57cc07c>el-table el-table-column 表格组件</a></li><li class="level-3" data-v-b57cc07c><a href="/blog/project02/04-%E5%93%81%E7%89%8C%E7%AE%A1%E7%90%86-Trademark%E7%BB%84%E4%BB%B6.html#表格单元格内展示非文本数据" class="sidebar-link reco-side-表格单元格内展示非文本数据" data-v-b57cc07c>表格单元格内展示非文本数据</a></li><li class="level-3" data-v-b57cc07c><a href="/blog/project02/04-%E5%93%81%E7%89%8C%E7%AE%A1%E7%90%86-Trademark%E7%BB%84%E4%BB%B6.html#el-pagination-分页器" class="sidebar-link reco-side-el-pagination-分页器" data-v-b57cc07c>el-pagination 分页器</a></li><li class="level-3" data-v-b57cc07c><a href="/blog/project02/04-%E5%93%81%E7%89%8C%E7%AE%A1%E7%90%86-Trademark%E7%BB%84%E4%BB%B6.html#el-upload-上传组件" class="sidebar-link reco-side-el-upload-上传组件" data-v-b57cc07c>el-upload 上传组件</a></li><li class="level-3" data-v-b57cc07c><a href="/blog/project02/04-%E5%93%81%E7%89%8C%E7%AE%A1%E7%90%86-Trademark%E7%BB%84%E4%BB%B6.html#el-upload-上传组件-可上传多个文件" class="sidebar-link reco-side-el-upload-上传组件-可上传多个文件" data-v-b57cc07c>el-upload 上传组件-可上传多个文件</a></li><li class="level-3" data-v-b57cc07c><a href="/blog/project02/04-%E5%93%81%E7%89%8C%E7%AE%A1%E7%90%86-Trademark%E7%BB%84%E4%BB%B6.html#messagebox-消息弹框" class="sidebar-link reco-side-messagebox-消息弹框" data-v-b57cc07c>messageBox 消息弹框</a></li><li class="level-2" data-v-b57cc07c><a href="/blog/project02/04-%E5%93%81%E7%89%8C%E7%AE%A1%E7%90%86-Trademark%E7%BB%84%E4%BB%B6.html#进入离开组件" class="sidebar-link reco-side-进入离开组件" data-v-b57cc07c>进入离开组件</a></li><li class="level-2" data-v-b57cc07c><a href="/blog/project02/04-%E5%93%81%E7%89%8C%E7%AE%A1%E7%90%86-Trademark%E7%BB%84%E4%BB%B6.html#生命周期" class="sidebar-link reco-side-生命周期" data-v-b57cc07c>生命周期</a></li><li class="level-2" data-v-b57cc07c><a href="/blog/project02/04-%E5%93%81%E7%89%8C%E7%AE%A1%E7%90%86-Trademark%E7%BB%84%E4%BB%B6.html#数据" class="sidebar-link reco-side-数据" data-v-b57cc07c>数据</a></li><li class="level-2" data-v-b57cc07c><a href="/blog/project02/04-%E5%93%81%E7%89%8C%E7%AE%A1%E7%90%86-Trademark%E7%BB%84%E4%BB%B6.html#api" class="sidebar-link reco-side-api" data-v-b57cc07c>API</a></li><li class="level-2" data-v-b57cc07c><a href="/blog/project02/04-%E5%93%81%E7%89%8C%E7%AE%A1%E7%90%86-Trademark%E7%BB%84%E4%BB%B6.html#methods" class="sidebar-link reco-side-methods" data-v-b57cc07c>methods</a></li><li class="level-2" data-v-b57cc07c><a href="/blog/project02/04-%E5%93%81%E7%89%8C%E7%AE%A1%E7%90%86-Trademark%E7%BB%84%E4%BB%B6.html#功能点" class="sidebar-link reco-side-功能点" data-v-b57cc07c>功能点</a></li></ul></div></div></div><div class="global-ui"><div class="back-to-ceiling" style="right:1rem;bottom:6rem;width:2.5rem;height:2.5rem;border-radius:.25rem;line-height:2.5rem;display:none;" data-v-c6073ba8 data-v-c6073ba8><svg t="1574745035067" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="5404" class="icon" data-v-c6073ba8><path d="M526.60727968 10.90185116a27.675 27.675 0 0 0-29.21455937 0c-131.36607665 82.28402758-218.69155461 228.01873535-218.69155402 394.07834331a462.20625001 462.20625001 0 0 0 5.36959153 69.94390903c1.00431239 6.55289093-0.34802892 13.13561351-3.76865779 18.80351572-32.63518765 54.11355614-51.75690182 118.55860487-51.7569018 187.94566865a371.06718723 371.06718723 0 0 0 11.50484808 91.98906777c6.53300375 25.50556257 41.68394495 28.14064038 52.69160883 4.22606766 17.37162448-37.73630017 42.14135425-72.50938081 72.80769204-103.21549295 2.18761121 3.04276886 4.15646224 6.24463696 6.40373557 9.22774369a1871.4375 1871.4375 0 0 0 140.04691725 5.34970492 1866.36093723 1866.36093723 0 0 0 140.04691723-5.34970492c2.24727335-2.98310674 4.21612437-6.18497483 6.3937923-9.2178004 30.66633723 30.70611158 55.4360664 65.4791928 72.80769147 103.21549355 11.00766384 23.91457269 46.15860503 21.27949489 52.69160879-4.22606768a371.15156223 371.15156223 0 0 0 11.514792-91.99901164c0-69.36717486-19.13165746-133.82216804-51.75690182-187.92578088-3.42062944-5.66790279-4.76302748-12.26056868-3.76865837-18.80351632a462.20625001 462.20625001 0 0 0 5.36959269-69.943909c-0.00994388-166.08943902-87.32547796-311.81420293-218.6915546-394.09823051zM605.93803103 357.87693858a93.93749974 93.93749974 0 1 1-187.89594924 6.1e-7 93.93749974 93.93749974 0 0 1 187.89594924-6.1e-7z" p-id="5405" data-v-c6073ba8></path><path d="M429.50777625 765.63860547C429.50777625 803.39355007 466.44236686 1000.39046097 512.00932183 1000.39046097c45.56695499 0 82.4922232-197.00623328 82.5015456-234.7518555 0-37.75494459-36.9345906-68.35043303-82.4922232-68.34111062-45.57627738-0.00932239-82.52019037 30.59548842-82.51086798 68.34111062z" p-id="5406" data-v-c6073ba8></path></svg></div></div></div>
+    <script src="/blog/assets/js/app.da6f0918.js" defer></script><script src="/blog/assets/js/3.31f72e99.js" defer></script><script src="/blog/assets/js/1.66bfa7cb.js" defer></script><script src="/blog/assets/js/15.9ece246a.js" defer></script>
+  </body>
+</html>

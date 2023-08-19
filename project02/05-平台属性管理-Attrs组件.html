@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>静态组件 | QuincyGuo的博客</title>
+    <meta name="generator" content="VuePress 1.9.9">
+    
+    <meta name="description" content="QuincyGuo记录学习笔记的地方">
+    
+    <link rel="preload" href="/blog/assets/css/0.styles.517234e0.css" as="style"><link rel="preload" href="/blog/assets/js/app.da6f0918.js" as="script"><link rel="preload" href="/blog/assets/js/3.31f72e99.js" as="script"><link rel="preload" href="/blog/assets/js/1.66bfa7cb.js" as="script"><link rel="preload" href="/blog/assets/js/12.710fd6c0.js" as="script"><link rel="prefetch" href="/blog/assets/js/10.2b38e72b.js"><link rel="prefetch" href="/blog/assets/js/11.f8c71519.js"><link rel="prefetch" href="/blog/assets/js/13.44052457.js"><link rel="prefetch" href="/blog/assets/js/14.f25c266d.js"><link rel="prefetch" href="/blog/assets/js/15.9ece246a.js"><link rel="prefetch" href="/blog/assets/js/16.86059fd5.js"><link rel="prefetch" href="/blog/assets/js/17.c4276fe9.js"><link rel="prefetch" href="/blog/assets/js/18.88e0f881.js"><link rel="prefetch" href="/blog/assets/js/19.ada81520.js"><link rel="prefetch" href="/blog/assets/js/20.f73ffdc5.js"><link rel="prefetch" href="/blog/assets/js/21.7ce2f3dd.js"><link rel="prefetch" href="/blog/assets/js/22.c1352cbb.js"><link rel="prefetch" href="/blog/assets/js/23.685342e3.js"><link rel="prefetch" href="/blog/assets/js/24.59f99b66.js"><link rel="prefetch" href="/blog/assets/js/25.332b41f3.js"><link rel="prefetch" href="/blog/assets/js/26.a4d6827e.js"><link rel="prefetch" href="/blog/assets/js/27.6f0e2396.js"><link rel="prefetch" href="/blog/assets/js/28.1c0009e8.js"><link rel="prefetch" href="/blog/assets/js/29.58aa4104.js"><link rel="prefetch" href="/blog/assets/js/30.ca8df5cd.js"><link rel="prefetch" href="/blog/assets/js/31.cd1b173f.js"><link rel="prefetch" href="/blog/assets/js/32.d3fa4616.js"><link rel="prefetch" href="/blog/assets/js/33.468a9d41.js"><link rel="prefetch" href="/blog/assets/js/34.648a6bf2.js"><link rel="prefetch" href="/blog/assets/js/35.5137f8c8.js"><link rel="prefetch" href="/blog/assets/js/36.61ffc937.js"><link rel="prefetch" href="/blog/assets/js/37.e984efff.js"><link rel="prefetch" href="/blog/assets/js/38.789114bb.js"><link rel="prefetch" href="/blog/assets/js/39.335bf6a5.js"><link rel="prefetch" href="/blog/assets/js/4.069e1d11.js"><link rel="prefetch" href="/blog/assets/js/40.cc63a04d.js"><link rel="prefetch" href="/blog/assets/js/41.ab4563a7.js"><link rel="prefetch" href="/blog/assets/js/42.a9562e76.js"><link rel="prefetch" href="/blog/assets/js/43.a5a460c1.js"><link rel="prefetch" href="/blog/assets/js/44.8fc6e8bc.js"><link rel="prefetch" href="/blog/assets/js/45.8a098be8.js"><link rel="prefetch" href="/blog/assets/js/46.b0a79868.js"><link rel="prefetch" href="/blog/assets/js/47.b6a7d238.js"><link rel="prefetch" href="/blog/assets/js/48.41f3fb63.js"><link rel="prefetch" href="/blog/assets/js/49.0c30d2c1.js"><link rel="prefetch" href="/blog/assets/js/5.7ce3c667.js"><link rel="prefetch" href="/blog/assets/js/50.1bce5996.js"><link rel="prefetch" href="/blog/assets/js/51.92f7cc75.js"><link rel="prefetch" href="/blog/assets/js/52.b086688e.js"><link rel="prefetch" href="/blog/assets/js/53.7d77ed0c.js"><link rel="prefetch" href="/blog/assets/js/54.da2522ff.js"><link rel="prefetch" href="/blog/assets/js/55.e7a2a247.js"><link rel="prefetch" href="/blog/assets/js/56.1722bcd4.js"><link rel="prefetch" href="/blog/assets/js/57.641fdfff.js"><link rel="prefetch" href="/blog/assets/js/58.f820535c.js"><link rel="prefetch" href="/blog/assets/js/59.b87b5b36.js"><link rel="prefetch" href="/blog/assets/js/6.9c5bd94c.js"><link rel="prefetch" href="/blog/assets/js/60.7cdf3e60.js"><link rel="prefetch" href="/blog/assets/js/61.d566c069.js"><link rel="prefetch" href="/blog/assets/js/7.5d2d87e4.js"><link rel="prefetch" href="/blog/assets/js/8.2fe6f6e4.js"><link rel="prefetch" href="/blog/assets/js/9.d1107a3f.js">
+    <link rel="stylesheet" href="/blog/assets/css/0.styles.517234e0.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container" data-v-7dd95ae2><div data-v-7dd95ae2><div class="password-shadow password-wrapper-out" style="display:none;" data-v-59e6cb88 data-v-7dd95ae2 data-v-7dd95ae2><h3 class="title" data-v-59e6cb88>QuincyGuo的博客</h3> <p class="description" data-v-59e6cb88>QuincyGuo记录学习笔记的地方</p> <label id="box" class="inputBox" data-v-59e6cb88><input type="password" value="" data-v-59e6cb88> <span data-v-59e6cb88>Konck! Knock!</span> <button data-v-59e6cb88>OK</button></label> <div class="footer" data-v-59e6cb88><span data-v-59e6cb88><i class="iconfont reco-theme" data-v-59e6cb88></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-59e6cb88>vuePress-theme-reco</a></span> <span data-v-59e6cb88><i class="iconfont reco-copyright" data-v-59e6cb88></i> <a data-v-59e6cb88><!---->
+          
+        <!---->
+        2023
+      </a></span></div></div> <div class="hide" data-v-7dd95ae2><header class="navbar" data-v-7dd95ae2><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/blog/" class="home-link router-link-active"><!----> <span class="site-name">QuincyGuo的博客</span></a> <div class="links"><div class="color-picker"><a class="color-button"><i class="iconfont reco-color"></i></a> <div class="color-picker-menu" style="display:none;"><div class="mode-options"><h4 class="title">Choose mode</h4> <ul class="color-mode-options"><li class="dark">dark</li><li class="auto active">auto</li><li class="light">light</li></ul></div></div></div> <div class="search-box"><i class="iconfont reco-search"></i> <input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/blog/project01/01-项目初始化.html" class="nav-link"><i class="undefined"></i>
+  PROJECT-SHOPING
+</a></div><div class="nav-item"><a href="/blog/project02/01-项目初始化.html" class="nav-link"><i class="undefined"></i>
+  PROJECT-MANAGE
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="undefined"></i>
+      HTML&amp;CSS
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blog/html/01-标签.html" class="nav-link"><i class="undefined"></i>
+  HTML
+</a></li><li class="dropdown-item"><!----> <a href="/blog/css/01-基本知识.html" class="nav-link"><i class="undefined"></i>
+  CSS
+</a></li></ul></div></div><div class="nav-item"><a href="/blog/js/基础知识.html" class="nav-link"><i class="undefined"></i>
+  JAVASCRIPT
+</a></div><div class="nav-item"><a href="/blog/dataVisualization/01-canvas.html" class="nav-link"><i class="undefined"></i>
+  DATA-VISUALIZATION
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="undefined"></i>
+      OTHER WEBSITES
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://github.com/quincyguo" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="undefined"></i>
+  Github
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask" data-v-7dd95ae2></div> <aside class="sidebar" data-v-7dd95ae2><div class="personal-info-wrapper" data-v-1fad0c41 data-v-7dd95ae2><!----> <!----> <div class="num" data-v-1fad0c41><div data-v-1fad0c41><h3 data-v-1fad0c41>49</h3> <h6 data-v-1fad0c41>Articles</h6></div> <div data-v-1fad0c41><h3 data-v-1fad0c41>0</h3> <h6 data-v-1fad0c41>Tags</h6></div></div> <ul class="social-links" data-v-1fad0c41></ul> <hr data-v-1fad0c41></div> <nav class="nav-links"><div class="nav-item"><a href="/blog/project01/01-项目初始化.html" class="nav-link"><i class="undefined"></i>
+  PROJECT-SHOPING
+</a></div><div class="nav-item"><a href="/blog/project02/01-项目初始化.html" class="nav-link"><i class="undefined"></i>
+  PROJECT-MANAGE
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="undefined"></i>
+      HTML&amp;CSS
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blog/html/01-标签.html" class="nav-link"><i class="undefined"></i>
+  HTML
+</a></li><li class="dropdown-item"><!----> <a href="/blog/css/01-基本知识.html" class="nav-link"><i class="undefined"></i>
+  CSS
+</a></li></ul></div></div><div class="nav-item"><a href="/blog/js/基础知识.html" class="nav-link"><i class="undefined"></i>
+  JAVASCRIPT
+</a></div><div class="nav-item"><a href="/blog/dataVisualization/01-canvas.html" class="nav-link"><i class="undefined"></i>
+  DATA-VISUALIZATION
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="undefined"></i>
+      OTHER WEBSITES
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://github.com/quincyguo" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="undefined"></i>
+  Github
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></div></div> <!----></nav> <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><a href="/blog/project02/01-项目初始化" class="sidebar-heading clickable open"><span>PROJECT-MANAGE</span> <!----></a> <ul class="sidebar-links sidebar-group-items"><li><a href="/blog/project02/01-项目初始化.html" class="sidebar-link">01-项目初始化</a></li><li><a href="/blog/project02/02-项目路由配置.html" class="sidebar-link">02-项目路由配置</a></li><li><a href="/blog/project02/03-登录业务-Login组件.html" class="sidebar-link">03-登录业务-Login组件</a></li><li><a href="/blog/project02/04-品牌管理-Trademark组件.html" class="sidebar-link">04-品牌管理-Trademark组件</a></li><li><a href="/blog/project02/05-平台属性管理-Attrs组件.html" class="active sidebar-link">05-平台属性管理-Attrs组件</a></li><li><a href="/blog/project02/06-SPU管理-Spu组件.html" class="sidebar-link">06-SPU管理-Spu组件</a></li><li><a href="/blog/project02/07-SPU编辑-SpuForm组件.html" class="sidebar-link">07-SPU编辑-SpuForm组件</a></li><li><a href="/blog/project02/08-SKU添加-SkuForm组件.html" class="sidebar-link">08-SKU添加-SkuForm组件</a></li><li><a href="/blog/project02/09-SKU管理-Sku组件.html" class="sidebar-link">09-SKU管理-Sku组件</a></li><li><a href="/blog/project02/10-图表-DashBoard组件.html" class="sidebar-link">10-图表-DashBoard组件</a></li></ul></section></li></ul> </aside> <div class="password-shadow password-wrapper-in" style="display:none;" data-v-59e6cb88 data-v-7dd95ae2><h3 class="title" data-v-59e6cb88></h3> <!----> <label id="box" class="inputBox" data-v-59e6cb88><input type="password" value="" data-v-59e6cb88> <span data-v-59e6cb88>Konck! Knock!</span> <button data-v-59e6cb88>OK</button></label> <div class="footer" data-v-59e6cb88><span data-v-59e6cb88><i class="iconfont reco-theme" data-v-59e6cb88></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-59e6cb88>vuePress-theme-reco</a></span> <span data-v-59e6cb88><i class="iconfont reco-copyright" data-v-59e6cb88></i> <a data-v-59e6cb88><!---->
+          
+        <!---->
+        2023
+      </a></span></div></div> <div data-v-7dd95ae2><div data-v-7dd95ae2><main class="page"><section style="display:;"><div class="page-title"><h1 class="title">静态组件</h1> <div data-v-8a445198><!----> <!----> <!----> <!----></div></div> <div class="theme-reco-content content__default"><h2 id="静态组件"><a href="#静态组件" class="header-anchor">#</a> 静态组件</h2> <img src="/blog/assets/img/attributeManagement.d31a7321.png"> <img src="/blog/assets/img/attrMan-addAttrValue.a858e8ae.png"> <h3 id="el-card-卡片组件"><a href="#el-card-卡片组件" class="header-anchor">#</a> el-card 卡片组件</h3> <p>作为一个占据空间的外侧容器使用。可以理解为有一定样式的div。</p> <div class="language- extra-class"><pre class="language-text"><code>&lt;el-card&gt;
+	...
+&lt;/el-card&gt;      
+</code></pre></div><h3 id="el-select-下拉选择组件"><a href="#el-select-下拉选择组件" class="header-anchor">#</a> el-select 下拉选择组件</h3> <div class="language- extra-class"><pre class="language-text"><code>&lt;el-select v-model=&quot;cForm.category1Id&quot;
+           @change=&quot;handler1&quot;
+           placeholder=&quot;请选择&quot; :disabled=&quot;isCategoryDisabled&quot; &gt;
+	&lt;el-option v-for=&quot;(c1) in list1&quot; :key=&quot;c1.id&quot;
+			   :label=&quot;c1.name&quot; :value=&quot;c1.id&quot; &gt;&lt;/el-option&gt;
+&lt;/el-select&gt;
+
+// v-model属性用于下拉选择表单元素选中的选项数据与组件data的双向绑定；
+// @change是选择的选项发生变化时的触发函数。
+
+// &lt;el-option&gt;用于选项的展示：list1是要展示为选项的数据，通过v-for循环展示出来；	
+// label是选项在页面上的展示数据；	value是选项要被&lt;el-select&gt;表单收集的数据。
+</code></pre></div><p>多个下拉框组合成一个表单的子表单项&amp;&amp;下拉框要给data传递多个属性的组合数据</p> <div class="language- extra-class"><pre class="language-text"><code>// 多个下拉框组合成一个子表单，作为外面大表单的一个表单项，排在一列。
+// 按照下面的data，每个属性是一个下拉框，属性里的每个属性值是下拉框的选项；每个下拉框选择时通过v-model交给data的数据，是在el-option的value里，合并出的新数据，原本不在attrInfoList里；下拉框选则某项后，会给attrInfoList中的每项新加一个属性，存储刚提交选中的合并数据attrIdAndValueId。
+
+&lt;el-form-item label=&quot;平台属性&quot;&gt;
+	&lt;el-form :inline=&quot;true&quot; ref=&quot;form&quot; label-width=&quot;80px&quot;&gt;
+		&lt;el-form-item :label=&quot;attr.attrName&quot;
+                      v-for=&quot;(attr) in attrInfoList&quot;
+                      :key=&quot;attr.id&quot;&gt;
+            &lt;el-select placeholder=&quot;请选择&quot;
+                       v-model=&quot;attr.attrIdAndValueId&quot;&gt;
+              &lt;el-option :label=&quot;attrValue.valueName&quot;
+                         :value=&quot;`${attr.id}:${attrValue.id}`&quot;
+                         v-for=&quot;(attrValue) in attr.attrValueList&quot;
+                         :key=&quot;attrValue.id&quot;&gt;&lt;/el-option&gt;
+            &lt;/el-select&gt;
+		&lt;/el-form-item&gt;
+	&lt;/el-form&gt;
+&lt;/el-form-item&gt;
+
+data：
+attrInfoList:[						// attrInfoList是属性列表，里面每一项是某个属性的数据，是一个对象
+    {
+        id:'',
+        attrName:'',
+        attrValueList:[				// attrValueList是某个属性的属性值列表，里面每一项是某个属性值的数据，是一个对象
+            {
+                id:'',
+                valueName:'',
+            }
+            ...
+        ]
+    }
+    ...
+]
+</code></pre></div><h3 id="两种标签交替出现-数据输入input与展示span"><a href="#两种标签交替出现-数据输入input与展示span" class="header-anchor">#</a> 两种标签交替出现 数据输入input与展示span</h3> <p>当页面上是input时，输入完毕挪走鼠标，输入框失去焦点时，切换为span数据展示；</p> <p>当页面上是span时，点击span，切换为input数据输入。</p> <div class="language- extra-class"><pre class="language-text"><code>&lt;el-card&gt;
+      &lt;el-input v-if=&quot;test&quot; @blur=&quot;change1&quot;&gt;&lt;/el-input&gt;
+      &lt;span v-else @click=&quot;change2&quot; style=&quot;display:block;&quot;&gt;{{8888}}&lt;/span&gt;
+&lt;/el-card&gt;
+
+data(){
+	return{
+		test:true,
+	}
+}
+methods:{
+    change1 () {
+        this.test = false;
+    },
+    change2 () {
+        this.test = true;
+    },
+}
+
+</code></pre></div><h3 id="el-popconfirm-气泡确认框"><a href="#el-popconfirm-气泡确认框" class="header-anchor">#</a> el-popconfirm 气泡确认框</h3> <p>气泡确认框不会出现在页面中央或顶部，而是会紧挨着出现在元素周围。</p> <div class="language- extra-class"><pre class="language-text"><code>&lt;el-popconfirm :title=&quot;`确认删除${row.valueName}？`&quot;
+               @onConfirm=&quot;deleteAttrValue($index)&quot;&gt;
+	&lt;el-button slot=&quot;reference&quot;&gt;删除&lt;/el-button&gt;
+&lt;/el-popconfirm&gt;
+
+// :title是确认框里的文本；		@onConfirm是点击确定按钮时的触发函数（官方库里是@confirm，但项目中，此种写法无用）
+// slot=&quot;reference&quot; 要放在：触发Popconfirm显示的HTML元素里
+</code></pre></div><h2 id="组件介绍"><a href="#组件介绍" class="header-anchor">#</a> 组件介绍</h2> <p>平台内的每个三级分类都有自己的多个属性，每个属性又会有多个属性值。比如，三级分类“手机”，就有运行内存，屏幕尺寸等多个属性，而运行内存属性也有多个属性值，比如4GB、8GB。</p> <p>本组件实现选中某个三级分类后，对其属性及属性值进行新增、修改、删除等操作。</p> <h2 id="进入离开组件"><a href="#进入离开组件" class="header-anchor">#</a> 进入离开组件</h2> <p>切换页面左侧的侧边栏，实现对路由的切换。</p> <p>对子组件CategorySelect绑定了一个自定义事件getCategoryId，向其传递了一个数据isCategoryDisabled。</p> <h2 id="子组件"><a href="#子组件" class="header-anchor">#</a> 子组件</h2> <p>CategorySelect	平台商品三级分类选择组件，也是一个全局组件。</p> <h2 id="数据"><a href="#数据" class="header-anchor">#</a> 数据</h2> <table><thead><tr><th>名称</th> <th>数据类型</th> <th>所属</th> <th>数据介绍</th></tr></thead> <tbody><tr><td>category1Id</td> <td>string</td> <td>data</td> <td>CategorySelect组件传递来的所选中一级分类的id</td></tr> <tr><td>category2Id</td> <td>string</td> <td>data</td> <td>CategorySelect组件传递来的所选中二级分类的id</td></tr> <tr><td>category3Id</td> <td>string</td> <td>data</td> <td>CategorySelect组件传递来的所选中三级分类的id</td></tr> <tr><td>attrList</td> <td>Array</td> <td>data</td> <td>当前三级分类的所有属性及其属性值的数据</td></tr> <tr><td>isShowTable</td> <td>Boolean</td> <td>data</td> <td>属性展示/属性编辑的切换</td></tr> <tr><td>attrInfo</td> <td>Object</td> <td>data</td> <td>当前处于编辑状态的属性数据</td></tr></tbody></table> <h2 id="api"><a href="#api" class="header-anchor">#</a> API</h2> <p>1、获取分类属性及属性值</p> <div class="language- extra-class"><pre class="language-text"><code>路径：/admin/product/attrInfoList/{categort1Id}/{categort2Id}/{categort3Id}	请求方式：get	参数：categort1Id,categort2Id,categort3Id选中的一二三级分类的id
+export const reqAttrList = (categort1Id, categort2Id, categort3Id) =&gt;
+	request({url: `/admin/product/attrInfoList/${categort1Id}/${categort2Id}/${categort3Id}`,method: &quot;get&quot; });
+</code></pre></div><p>2、保存分类属性属性值</p> <div class="language- extra-class"><pre class="language-text"><code>路径：/admin/product/saveAttrInfo		请求方式：post  	参数：data
+export const reqAddOrUpdateAttr = (data) =&gt;
+	request({ url: `/admin/product/saveAttrInfo`, method: &quot;post&quot;, data });
+
+// 参数data：
+{
+    attrName: &quot;&quot;,
+    attrValueList: [				// 属性中的属性值，因为一个属性可有多个属性值，所以数据类型是数组
+        {
+            attrId: 0,				// 属性值所属的属性的id
+            valueName:&quot;&quot;,			// 属性值
+        }
+	],
+	categoryId: 0,					// 属性所属的三级分类的id
+	categoryLevel:3,				
+}
+
+// 不论是新增还是修改，data:attrInfo里保存的一直都是目前正在操作的属性及属性值数据，传给服务器的也都是这个处于编辑状态的数据。
+</code></pre></div><h2 id="methods"><a href="#methods" class="header-anchor">#</a> methods</h2> <p>1、getCategoryId (cForm)	 绑定给CategorySelect组件的自定义事件的回调函数</p> <div class="language- extra-class"><pre class="language-text"><code>1、参数：cForm CategorySelect组件中选中的一二三级商品分类的id
+
+2、函数内容：
+2.1、当CategorySelect组件触发自定义事件时，本组件的回调函数被执行，本组件获取到自定义事件执行时时传过来的参数，将其保存到组件data中。
+2.2、调用getAttrList()，从服务器获取当前选中的三级分类的所有属性及属性值
+</code></pre></div><p>2、getAttrList()	获取当前三级分类的属性及属性值</p> <div class="language- extra-class"><pre class="language-text"><code>1、参数：无
+
+2、函数内容：
+2.1、调用API-获取分类属性及属性值，等待服务器返回结果；如果返回结果成功，将返回的数据保存到data:attrList中；
+2.2、失败则提示失败原因。
+</code></pre></div><p>3、addAttr()	给分类添加新属性</p> <div class="language- extra-class"><pre class="language-text"><code>1、参数：无
+
+2、函数内容：
+2.1、将属性显示切换为属性编辑；
+2.2、将data:attrInfo置空，等待用户为其添加数据。
+</code></pre></div><p>4、updateAttr(row)	修改分类的某个属性</p> <div class="language- extra-class"><pre class="language-text"><code>1、参数：row 待修改的属性的相关数据
+
+2、函数内容：
+2.1、将属性显示切换为属性编辑；
+2.2、将row深拷贝给data:attrInfo；
+2.3、为attrInfo.attrValueList每个属性值都添加一个isEdit属性，便于确定用户要修改的属性值；
+</code></pre></div><p>5、addAttrValue()	为属性添加属性值</p> <div class="language- extra-class"><pre class="language-text"><code>1、参数：无
+
+2、函数内容：
+2.1、给attrInfo.attrValueList属性值列表，新增一条默认的属性值数据；
+2.2、获取到刚才新增的属性值数据的页面DOM元素，将其获得焦点。
+</code></pre></div><p>6、deleteAttrValue(index)	为属性删除属性值</p> <div class="language- extra-class"><pre class="language-text"><code>1、参数：index 待删除的属性值在属性值列表里的顺序索引
+
+2、函数内容：
+2.1、调用数组splice方法，根据索引进行删除。
+</code></pre></div><p>7、spanFocus (row, index)	将属性值展示切换为属性值输入</p> <div class="language- extra-class"><pre class="language-text"><code>1、参数：row 待修改的属性值相关数据；	index 待修改的属性值在属性值列表里的顺序索引
+
+2、函数内容：
+2.1、将当前修改的属性值数据里的isEdit属性变为true；页面DOM会由span切换为input；
+2.2、获取到正在修改的属性值数据的页面DOM元素，将其获得焦点。
+</code></pre></div><p>8、inputBlur (row)	将属性值输入切换为属性值展示</p> <div class="language- extra-class"><pre class="language-text"><code>1、参数：row 待修改的属性值相关数据；	
+
+2、函数内容：
+2.1、对用户输入的新的属性值数据进行验证；验证不通过则进行提示；
+2.2、验证通过，则将当前修改的属性值数据里的isEdit属性变为false；页面DOM会由span切换为input；
+</code></pre></div><p>9、saveAttrValueList ()	保存用户对属性属性值的新增/修改/删除操作</p> <div class="language- extra-class"><pre class="language-text"><code>1、参数：无
+
+2、函数内容：
+2.1、对data:attrInfo进行处理，去掉前面新加的isEdit属性（方便编写代码，但是服务器不需要该数据）；
+2.2、调用API-保存分类属性属性值，等待服务器返回结果；如果返回结果成功，则弹出消息提示，切换回属性展示页面，调用getAttrList方法，从服务器获取更新后的属性数据；
+2.3、如果返回结果失败，则提示失败原因；
+
+// 前面所有的对于属性属性值的新增/修改/删除操作，全部都是对data:attrInfo的操作，所以最终将data:attrInfo这个保存最终编辑结果的数据传递给服务器即可；
+</code></pre></div><h2 id="功能点"><a href="#功能点" class="header-anchor">#</a> 功能点</h2> <p>1、属性及属性值数据动态展示</p> <p>子组件里选择好三级分类数据，触发自定义事件，将数据传递过来；之后本组件，调用获取分类属性及属性值的API，向服务器发送请求；服务器返回成功则将返回的数据保存到组件data中；页面在展示时，使用相应的属性即可。</p> <p>2、属性、属性值的添加/修改/删除</p> <p>用户点击添加/修改属性按钮，属性展示区域切换为属性编辑区域；初始化记录用户操作属性的数据data:attrInfo；把用户的每步操作对应的数据变动，都记录在数据data:attrInfo中；（包括新增属性名、新增属性值、修改已有的属性值、删除已有的属性值）。</p> <p>其间的数据操作还包括属性值的input输入和span展示的变动，输入文本的检验，变动数据期间的按钮限制等。</p> <p>3、保存对属性、属性值的编辑</p> <p>用户点击保存，调用保存属性、属性值数据的API，向服务器发送请求；服务器返回成功则弹出消息框提示，切换回属性展示页面。</p> <h2 id="子组件-categoryselect"><a href="#子组件-categoryselect" class="header-anchor">#</a> 子组件 CategorySelect</h2> <p><img src="/blog/assets/img/childSelect.c7b62f9b.png" alt=""></p> <h3 id="组件介绍-2"><a href="#组件介绍-2" class="header-anchor">#</a> 组件介绍</h3> <p>平台内的商品分类，总共划分为三级。比如，一级分类有电子产品、服装；服装的一级分类下又有男装、女装等二级分类；男装的二级分类下又有男士上衣、男士裤子等等三级分类。</p> <p>本组件就是通过三个下拉选择框，让用户一级一级地选择出某个三级分类；把选择好的三层分类的每层分类的id包装成一个对象，传递给需要的组件。</p> <h3 id="进入-离开组件"><a href="#进入-离开组件" class="header-anchor">#</a> 进入/离开组件</h3> <p>全局组件，在Attrs组件中作为子组件使用；</p> <p>参数：父组件Attrs添加的自定义事件getCategoryId（传出本组件内选择的三级分类的id）、及父组件传入的数据isCategoryDisabled</p> <h3 id="数据-2"><a href="#数据-2" class="header-anchor">#</a> 数据</h3> <table><thead><tr><th>名称</th> <th>数据类型</th> <th>所属</th> <th>数据介绍</th></tr></thead> <tbody><tr><td>list1</td> <td>Array</td> <td>data</td> <td>平台商品的所有一级分类数据</td></tr> <tr><td>list2</td> <td>Array</td> <td>data</td> <td>所选择的一级分类下的所有二级分类数据</td></tr> <tr><td>list3</td> <td>Array</td> <td>data</td> <td>所选择的二级分类下的所有三级分类数据</td></tr> <tr><td>cForm</td> <td>Object</td> <td>data</td> <td>用户选择的一/二/三级分类的id数据</td></tr> <tr><td>isCategoryDisabled</td> <td>Boolean</td> <td>props</td> <td>外部组件控制本组件内三个下拉框的禁用与否的数据</td></tr></tbody></table> <h3 id="生命周期"><a href="#生命周期" class="header-anchor">#</a> 生命周期</h3> <p>1、mounted ()</p> <p>调用getCategoryList1方法；组件向服务器发送”获取一级商品分类“的网络请求，如果服务器返回的result正常，则将返回的数据保存到组件的data中，以供后续使用。</p> <h3 id="api-2"><a href="#api-2" class="header-anchor">#</a> API</h3> <p>1、获取一级商品分类</p> <div class="language- extra-class"><pre class="language-text"><code>路径：/admin/product/getCategory1		请求方式：get	参数：无
+export const reqGetCategory1List = () =&gt;
+	request({ url: `/admin/product/getCategory1`, method: &quot;get&quot; });
+</code></pre></div><p>2、获取二级商品分类</p> <div class="language- extra-class"><pre class="language-text"><code>路径：/admin/product/getCategory2/{categort1Id}	请求方式：get	参数：categort1Id一级分类的id
+export const reqGetCategory2List = (category1Id) =&gt;
+	request({ url: `/admin/product/getCategory2/${category1Id}`, method: &quot;get&quot; });
+</code></pre></div><p>3、获取三级商品分类</p> <div class="language- extra-class"><pre class="language-text"><code>路径：/admin/product/getCategory3/{categort2Id}	请求方式：get	参数：categort2Id二级分类的id
+export const reqGetCategory3List = (category2Id) =&gt;
+	request({ url: `/admin/product/getCategory3/${category2Id}`, method: &quot;get&quot; });
+</code></pre></div><h3 id="methods-2"><a href="#methods-2" class="header-anchor">#</a> methods</h3> <p>1、getCategoryList1	获取一级商品分类数据</p> <div class="language- extra-class"><pre class="language-text"><code>1、参数：无
+
+2、函数内容：
+2.1、调用API-获取一级商品分类；等待服务器返回结果；如果结果成功，将服务器返回的一级分类列表数据保存到组件data:list1中；
+2.2、失败则提示失败原因；
+</code></pre></div><p>2、getCategoryList2 / getCategoryList3	获取二/三级商品分类数据</p> <p>原理与getCategoryList1一致。调用相应的API，将服务器返回的相应层级的分类列表数据保存到组件data:list2/list3中；</p> <p>3、handler1	选中某个一级分类选项</p> <div class="language- extra-class"><pre class="language-text"><code>1、参数：无
+
+2、函数内容：
+2.1、将组件data中关于二级、三级分类的数据全部置空；
+2.2、调用getCategoryList2，获取二级商品分类数据。
+</code></pre></div><p>4、handler2	选中某个二级分类选项</p> <div class="language- extra-class"><pre class="language-text"><code>1、参数：无
+
+2、函数内容：
+2.1、将组件data中关于三级分类的数据全部置空；
+2.2、调用getCategoryList3，获取三级商品分类数据。
+</code></pre></div><p>5、handler3	选中某个三级分类选项</p> <div class="language- extra-class"><pre class="language-text"><code>1、参数：无
+
+2、函数内容：
+2.1、触发Attrs组件绑定的自定义事件getCategoryId，传递数据data:cForm给Attrs组件。
+</code></pre></div><h3 id="功能点-2"><a href="#功能点-2" class="header-anchor">#</a> 功能点</h3> <p>1、选择一二三级商品分类</p> <p>组件在mounted阶段，调用获取一级分类的API，向服务器发送请求；服务器返回成功则将一级分类列表数据保存到data中；</p> <p>选中某个一级分类，调用获取相应一级分类下的二级分类的API，向服务器发送请求；服务器返回成功则将二级分类列表数据保存到data中；</p> <p>选中某个二级分类，调用获取相应二级分类下的三级分类的API，向服务器发送请求；服务器返回成功则将三级分类列表数据保存到data中；</p> <p>选中某个三级分类，触发Attrs组件绑定的自定义事件getCategoryId，将三个选中的分类id传递给Attrs组件。</p></div></section> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev"><a href="/blog/project02/04-品牌管理-Trademark组件.html" class="prev">
+          04-品牌管理-Trademark组件
+        </a></span> <span class="next"><a href="/blog/project02/06-SPU管理-Spu组件.html">
+          06-SPU管理-Spu组件
+        </a></span></p></div> <div class="comments-wrapper"><!----></div></main></div> <!----></div> <ul class="sub-sidebar sub-sidebar-wrapper" style="width:12rem;" data-v-b57cc07c data-v-7dd95ae2><li class="level-2" data-v-b57cc07c><a href="/blog/project02/05-%E5%B9%B3%E5%8F%B0%E5%B1%9E%E6%80%A7%E7%AE%A1%E7%90%86-Attrs%E7%BB%84%E4%BB%B6.html#静态组件" class="sidebar-link reco-side-静态组件" data-v-b57cc07c>静态组件</a></li><li class="level-3" data-v-b57cc07c><a href="/blog/project02/05-%E5%B9%B3%E5%8F%B0%E5%B1%9E%E6%80%A7%E7%AE%A1%E7%90%86-Attrs%E7%BB%84%E4%BB%B6.html#el-card-卡片组件" class="sidebar-link reco-side-el-card-卡片组件" data-v-b57cc07c>el-card 卡片组件</a></li><li class="level-3" data-v-b57cc07c><a href="/blog/project02/05-%E5%B9%B3%E5%8F%B0%E5%B1%9E%E6%80%A7%E7%AE%A1%E7%90%86-Attrs%E7%BB%84%E4%BB%B6.html#el-select-下拉选择组件" class="sidebar-link reco-side-el-select-下拉选择组件" data-v-b57cc07c>el-select 下拉选择组件</a></li><li class="level-3" data-v-b57cc07c><a href="/blog/project02/05-%E5%B9%B3%E5%8F%B0%E5%B1%9E%E6%80%A7%E7%AE%A1%E7%90%86-Attrs%E7%BB%84%E4%BB%B6.html#两种标签交替出现-数据输入input与展示span" class="sidebar-link reco-side-两种标签交替出现-数据输入input与展示span" data-v-b57cc07c>两种标签交替出现 数据输入input与展示span</a></li><li class="level-3" data-v-b57cc07c><a href="/blog/project02/05-%E5%B9%B3%E5%8F%B0%E5%B1%9E%E6%80%A7%E7%AE%A1%E7%90%86-Attrs%E7%BB%84%E4%BB%B6.html#el-popconfirm-气泡确认框" class="sidebar-link reco-side-el-popconfirm-气泡确认框" data-v-b57cc07c>el-popconfirm 气泡确认框</a></li><li class="level-2" data-v-b57cc07c><a href="/blog/project02/05-%E5%B9%B3%E5%8F%B0%E5%B1%9E%E6%80%A7%E7%AE%A1%E7%90%86-Attrs%E7%BB%84%E4%BB%B6.html#组件介绍" class="sidebar-link reco-side-组件介绍" data-v-b57cc07c>组件介绍</a></li><li class="level-2" data-v-b57cc07c><a href="/blog/project02/05-%E5%B9%B3%E5%8F%B0%E5%B1%9E%E6%80%A7%E7%AE%A1%E7%90%86-Attrs%E7%BB%84%E4%BB%B6.html#进入离开组件" class="sidebar-link reco-side-进入离开组件" data-v-b57cc07c>进入离开组件</a></li><li class="level-2" data-v-b57cc07c><a href="/blog/project02/05-%E5%B9%B3%E5%8F%B0%E5%B1%9E%E6%80%A7%E7%AE%A1%E7%90%86-Attrs%E7%BB%84%E4%BB%B6.html#子组件" class="sidebar-link reco-side-子组件" data-v-b57cc07c>子组件</a></li><li class="level-2" data-v-b57cc07c><a href="/blog/project02/05-%E5%B9%B3%E5%8F%B0%E5%B1%9E%E6%80%A7%E7%AE%A1%E7%90%86-Attrs%E7%BB%84%E4%BB%B6.html#数据" class="sidebar-link reco-side-数据" data-v-b57cc07c>数据</a></li><li class="level-2" data-v-b57cc07c><a href="/blog/project02/05-%E5%B9%B3%E5%8F%B0%E5%B1%9E%E6%80%A7%E7%AE%A1%E7%90%86-Attrs%E7%BB%84%E4%BB%B6.html#api" class="sidebar-link reco-side-api" data-v-b57cc07c>API</a></li><li class="level-2" data-v-b57cc07c><a href="/blog/project02/05-%E5%B9%B3%E5%8F%B0%E5%B1%9E%E6%80%A7%E7%AE%A1%E7%90%86-Attrs%E7%BB%84%E4%BB%B6.html#methods" class="sidebar-link reco-side-methods" data-v-b57cc07c>methods</a></li><li class="level-2" data-v-b57cc07c><a href="/blog/project02/05-%E5%B9%B3%E5%8F%B0%E5%B1%9E%E6%80%A7%E7%AE%A1%E7%90%86-Attrs%E7%BB%84%E4%BB%B6.html#功能点" class="sidebar-link reco-side-功能点" data-v-b57cc07c>功能点</a></li><li class="level-2" data-v-b57cc07c><a href="/blog/project02/05-%E5%B9%B3%E5%8F%B0%E5%B1%9E%E6%80%A7%E7%AE%A1%E7%90%86-Attrs%E7%BB%84%E4%BB%B6.html#子组件-categoryselect" class="sidebar-link reco-side-子组件-categoryselect" data-v-b57cc07c>子组件 CategorySelect</a></li><li class="level-3" data-v-b57cc07c><a href="/blog/project02/05-%E5%B9%B3%E5%8F%B0%E5%B1%9E%E6%80%A7%E7%AE%A1%E7%90%86-Attrs%E7%BB%84%E4%BB%B6.html#组件介绍-2" class="sidebar-link reco-side-组件介绍-2" data-v-b57cc07c>组件介绍</a></li><li class="level-3" data-v-b57cc07c><a href="/blog/project02/05-%E5%B9%B3%E5%8F%B0%E5%B1%9E%E6%80%A7%E7%AE%A1%E7%90%86-Attrs%E7%BB%84%E4%BB%B6.html#进入-离开组件" class="sidebar-link reco-side-进入-离开组件" data-v-b57cc07c>进入/离开组件</a></li><li class="level-3" data-v-b57cc07c><a href="/blog/project02/05-%E5%B9%B3%E5%8F%B0%E5%B1%9E%E6%80%A7%E7%AE%A1%E7%90%86-Attrs%E7%BB%84%E4%BB%B6.html#数据-2" class="sidebar-link reco-side-数据-2" data-v-b57cc07c>数据</a></li><li class="level-3" data-v-b57cc07c><a href="/blog/project02/05-%E5%B9%B3%E5%8F%B0%E5%B1%9E%E6%80%A7%E7%AE%A1%E7%90%86-Attrs%E7%BB%84%E4%BB%B6.html#生命周期" class="sidebar-link reco-side-生命周期" data-v-b57cc07c>生命周期</a></li><li class="level-3" data-v-b57cc07c><a href="/blog/project02/05-%E5%B9%B3%E5%8F%B0%E5%B1%9E%E6%80%A7%E7%AE%A1%E7%90%86-Attrs%E7%BB%84%E4%BB%B6.html#api-2" class="sidebar-link reco-side-api-2" data-v-b57cc07c>API</a></li><li class="level-3" data-v-b57cc07c><a href="/blog/project02/05-%E5%B9%B3%E5%8F%B0%E5%B1%9E%E6%80%A7%E7%AE%A1%E7%90%86-Attrs%E7%BB%84%E4%BB%B6.html#methods-2" class="sidebar-link reco-side-methods-2" data-v-b57cc07c>methods</a></li><li class="level-3" data-v-b57cc07c><a href="/blog/project02/05-%E5%B9%B3%E5%8F%B0%E5%B1%9E%E6%80%A7%E7%AE%A1%E7%90%86-Attrs%E7%BB%84%E4%BB%B6.html#功能点-2" class="sidebar-link reco-side-功能点-2" data-v-b57cc07c>功能点</a></li></ul></div></div></div><div class="global-ui"><div class="back-to-ceiling" style="right:1rem;bottom:6rem;width:2.5rem;height:2.5rem;border-radius:.25rem;line-height:2.5rem;display:none;" data-v-c6073ba8 data-v-c6073ba8><svg t="1574745035067" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="5404" class="icon" data-v-c6073ba8><path d="M526.60727968 10.90185116a27.675 27.675 0 0 0-29.21455937 0c-131.36607665 82.28402758-218.69155461 228.01873535-218.69155402 394.07834331a462.20625001 462.20625001 0 0 0 5.36959153 69.94390903c1.00431239 6.55289093-0.34802892 13.13561351-3.76865779 18.80351572-32.63518765 54.11355614-51.75690182 118.55860487-51.7569018 187.94566865a371.06718723 371.06718723 0 0 0 11.50484808 91.98906777c6.53300375 25.50556257 41.68394495 28.14064038 52.69160883 4.22606766 17.37162448-37.73630017 42.14135425-72.50938081 72.80769204-103.21549295 2.18761121 3.04276886 4.15646224 6.24463696 6.40373557 9.22774369a1871.4375 1871.4375 0 0 0 140.04691725 5.34970492 1866.36093723 1866.36093723 0 0 0 140.04691723-5.34970492c2.24727335-2.98310674 4.21612437-6.18497483 6.3937923-9.2178004 30.66633723 30.70611158 55.4360664 65.4791928 72.80769147 103.21549355 11.00766384 23.91457269 46.15860503 21.27949489 52.69160879-4.22606768a371.15156223 371.15156223 0 0 0 11.514792-91.99901164c0-69.36717486-19.13165746-133.82216804-51.75690182-187.92578088-3.42062944-5.66790279-4.76302748-12.26056868-3.76865837-18.80351632a462.20625001 462.20625001 0 0 0 5.36959269-69.943909c-0.00994388-166.08943902-87.32547796-311.81420293-218.6915546-394.09823051zM605.93803103 357.87693858a93.93749974 93.93749974 0 1 1-187.89594924 6.1e-7 93.93749974 93.93749974 0 0 1 187.89594924-6.1e-7z" p-id="5405" data-v-c6073ba8></path><path d="M429.50777625 765.63860547C429.50777625 803.39355007 466.44236686 1000.39046097 512.00932183 1000.39046097c45.56695499 0 82.4922232-197.00623328 82.5015456-234.7518555 0-37.75494459-36.9345906-68.35043303-82.4922232-68.34111062-45.57627738-0.00932239-82.52019037 30.59548842-82.51086798 68.34111062z" p-id="5406" data-v-c6073ba8></path></svg></div></div></div>
+    <script src="/blog/assets/js/app.da6f0918.js" defer></script><script src="/blog/assets/js/3.31f72e99.js" defer></script><script src="/blog/assets/js/1.66bfa7cb.js" defer></script><script src="/blog/assets/js/12.710fd6c0.js" defer></script>
+  </body>
+</html>

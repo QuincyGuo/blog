@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>项目路由划分 | QuincyGuo的博客</title>
+    <meta name="generator" content="VuePress 1.9.9">
+    
+    <meta name="description" content="QuincyGuo记录学习笔记的地方">
+    
+    <link rel="preload" href="/blog/assets/css/0.styles.517234e0.css" as="style"><link rel="preload" href="/blog/assets/js/app.da6f0918.js" as="script"><link rel="preload" href="/blog/assets/js/3.31f72e99.js" as="script"><link rel="preload" href="/blog/assets/js/1.66bfa7cb.js" as="script"><link rel="preload" href="/blog/assets/js/34.648a6bf2.js" as="script"><link rel="prefetch" href="/blog/assets/js/10.2b38e72b.js"><link rel="prefetch" href="/blog/assets/js/11.f8c71519.js"><link rel="prefetch" href="/blog/assets/js/12.710fd6c0.js"><link rel="prefetch" href="/blog/assets/js/13.44052457.js"><link rel="prefetch" href="/blog/assets/js/14.f25c266d.js"><link rel="prefetch" href="/blog/assets/js/15.9ece246a.js"><link rel="prefetch" href="/blog/assets/js/16.86059fd5.js"><link rel="prefetch" href="/blog/assets/js/17.c4276fe9.js"><link rel="prefetch" href="/blog/assets/js/18.88e0f881.js"><link rel="prefetch" href="/blog/assets/js/19.ada81520.js"><link rel="prefetch" href="/blog/assets/js/20.f73ffdc5.js"><link rel="prefetch" href="/blog/assets/js/21.7ce2f3dd.js"><link rel="prefetch" href="/blog/assets/js/22.c1352cbb.js"><link rel="prefetch" href="/blog/assets/js/23.685342e3.js"><link rel="prefetch" href="/blog/assets/js/24.59f99b66.js"><link rel="prefetch" href="/blog/assets/js/25.332b41f3.js"><link rel="prefetch" href="/blog/assets/js/26.a4d6827e.js"><link rel="prefetch" href="/blog/assets/js/27.6f0e2396.js"><link rel="prefetch" href="/blog/assets/js/28.1c0009e8.js"><link rel="prefetch" href="/blog/assets/js/29.58aa4104.js"><link rel="prefetch" href="/blog/assets/js/30.ca8df5cd.js"><link rel="prefetch" href="/blog/assets/js/31.cd1b173f.js"><link rel="prefetch" href="/blog/assets/js/32.d3fa4616.js"><link rel="prefetch" href="/blog/assets/js/33.468a9d41.js"><link rel="prefetch" href="/blog/assets/js/35.5137f8c8.js"><link rel="prefetch" href="/blog/assets/js/36.61ffc937.js"><link rel="prefetch" href="/blog/assets/js/37.e984efff.js"><link rel="prefetch" href="/blog/assets/js/38.789114bb.js"><link rel="prefetch" href="/blog/assets/js/39.335bf6a5.js"><link rel="prefetch" href="/blog/assets/js/4.069e1d11.js"><link rel="prefetch" href="/blog/assets/js/40.cc63a04d.js"><link rel="prefetch" href="/blog/assets/js/41.ab4563a7.js"><link rel="prefetch" href="/blog/assets/js/42.a9562e76.js"><link rel="prefetch" href="/blog/assets/js/43.a5a460c1.js"><link rel="prefetch" href="/blog/assets/js/44.8fc6e8bc.js"><link rel="prefetch" href="/blog/assets/js/45.8a098be8.js"><link rel="prefetch" href="/blog/assets/js/46.b0a79868.js"><link rel="prefetch" href="/blog/assets/js/47.b6a7d238.js"><link rel="prefetch" href="/blog/assets/js/48.41f3fb63.js"><link rel="prefetch" href="/blog/assets/js/49.0c30d2c1.js"><link rel="prefetch" href="/blog/assets/js/5.7ce3c667.js"><link rel="prefetch" href="/blog/assets/js/50.1bce5996.js"><link rel="prefetch" href="/blog/assets/js/51.92f7cc75.js"><link rel="prefetch" href="/blog/assets/js/52.b086688e.js"><link rel="prefetch" href="/blog/assets/js/53.7d77ed0c.js"><link rel="prefetch" href="/blog/assets/js/54.da2522ff.js"><link rel="prefetch" href="/blog/assets/js/55.e7a2a247.js"><link rel="prefetch" href="/blog/assets/js/56.1722bcd4.js"><link rel="prefetch" href="/blog/assets/js/57.641fdfff.js"><link rel="prefetch" href="/blog/assets/js/58.f820535c.js"><link rel="prefetch" href="/blog/assets/js/59.b87b5b36.js"><link rel="prefetch" href="/blog/assets/js/6.9c5bd94c.js"><link rel="prefetch" href="/blog/assets/js/60.7cdf3e60.js"><link rel="prefetch" href="/blog/assets/js/61.d566c069.js"><link rel="prefetch" href="/blog/assets/js/7.5d2d87e4.js"><link rel="prefetch" href="/blog/assets/js/8.2fe6f6e4.js"><link rel="prefetch" href="/blog/assets/js/9.d1107a3f.js">
+    <link rel="stylesheet" href="/blog/assets/css/0.styles.517234e0.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container" data-v-7dd95ae2><div data-v-7dd95ae2><div class="password-shadow password-wrapper-out" style="display:none;" data-v-59e6cb88 data-v-7dd95ae2 data-v-7dd95ae2><h3 class="title" data-v-59e6cb88>QuincyGuo的博客</h3> <p class="description" data-v-59e6cb88>QuincyGuo记录学习笔记的地方</p> <label id="box" class="inputBox" data-v-59e6cb88><input type="password" value="" data-v-59e6cb88> <span data-v-59e6cb88>Konck! Knock!</span> <button data-v-59e6cb88>OK</button></label> <div class="footer" data-v-59e6cb88><span data-v-59e6cb88><i class="iconfont reco-theme" data-v-59e6cb88></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-59e6cb88>vuePress-theme-reco</a></span> <span data-v-59e6cb88><i class="iconfont reco-copyright" data-v-59e6cb88></i> <a data-v-59e6cb88><!---->
+          
+        <!---->
+        2023
+      </a></span></div></div> <div class="hide" data-v-7dd95ae2><header class="navbar" data-v-7dd95ae2><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/blog/" class="home-link router-link-active"><!----> <span class="site-name">QuincyGuo的博客</span></a> <div class="links"><div class="color-picker"><a class="color-button"><i class="iconfont reco-color"></i></a> <div class="color-picker-menu" style="display:none;"><div class="mode-options"><h4 class="title">Choose mode</h4> <ul class="color-mode-options"><li class="dark">dark</li><li class="auto active">auto</li><li class="light">light</li></ul></div></div></div> <div class="search-box"><i class="iconfont reco-search"></i> <input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/blog/project01/01-项目初始化.html" class="nav-link"><i class="undefined"></i>
+  PROJECT-SHOPING
+</a></div><div class="nav-item"><a href="/blog/project02/01-项目初始化.html" class="nav-link"><i class="undefined"></i>
+  PROJECT-MANAGE
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="undefined"></i>
+      HTML&amp;CSS
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blog/html/01-标签.html" class="nav-link"><i class="undefined"></i>
+  HTML
+</a></li><li class="dropdown-item"><!----> <a href="/blog/css/01-基本知识.html" class="nav-link"><i class="undefined"></i>
+  CSS
+</a></li></ul></div></div><div class="nav-item"><a href="/blog/js/基础知识.html" class="nav-link"><i class="undefined"></i>
+  JAVASCRIPT
+</a></div><div class="nav-item"><a href="/blog/dataVisualization/01-canvas.html" class="nav-link"><i class="undefined"></i>
+  DATA-VISUALIZATION
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="undefined"></i>
+      OTHER WEBSITES
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://github.com/quincyguo" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="undefined"></i>
+  Github
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask" data-v-7dd95ae2></div> <aside class="sidebar" data-v-7dd95ae2><div class="personal-info-wrapper" data-v-1fad0c41 data-v-7dd95ae2><!----> <!----> <div class="num" data-v-1fad0c41><div data-v-1fad0c41><h3 data-v-1fad0c41>49</h3> <h6 data-v-1fad0c41>Articles</h6></div> <div data-v-1fad0c41><h3 data-v-1fad0c41>0</h3> <h6 data-v-1fad0c41>Tags</h6></div></div> <ul class="social-links" data-v-1fad0c41></ul> <hr data-v-1fad0c41></div> <nav class="nav-links"><div class="nav-item"><a href="/blog/project01/01-项目初始化.html" class="nav-link"><i class="undefined"></i>
+  PROJECT-SHOPING
+</a></div><div class="nav-item"><a href="/blog/project02/01-项目初始化.html" class="nav-link"><i class="undefined"></i>
+  PROJECT-MANAGE
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="undefined"></i>
+      HTML&amp;CSS
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blog/html/01-标签.html" class="nav-link"><i class="undefined"></i>
+  HTML
+</a></li><li class="dropdown-item"><!----> <a href="/blog/css/01-基本知识.html" class="nav-link"><i class="undefined"></i>
+  CSS
+</a></li></ul></div></div><div class="nav-item"><a href="/blog/js/基础知识.html" class="nav-link"><i class="undefined"></i>
+  JAVASCRIPT
+</a></div><div class="nav-item"><a href="/blog/dataVisualization/01-canvas.html" class="nav-link"><i class="undefined"></i>
+  DATA-VISUALIZATION
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="undefined"></i>
+      OTHER WEBSITES
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://github.com/quincyguo" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="undefined"></i>
+  Github
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></div></div> <!----></nav> <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><a href="/blog/project02/01-项目初始化" class="sidebar-heading clickable open"><span>PROJECT-MANAGE</span> <!----></a> <ul class="sidebar-links sidebar-group-items"><li><a href="/blog/project02/01-项目初始化.html" class="sidebar-link">01-项目初始化</a></li><li><a href="/blog/project02/02-项目路由配置.html" class="active sidebar-link">02-项目路由配置</a></li><li><a href="/blog/project02/03-登录业务-Login组件.html" class="sidebar-link">03-登录业务-Login组件</a></li><li><a href="/blog/project02/04-品牌管理-Trademark组件.html" class="sidebar-link">04-品牌管理-Trademark组件</a></li><li><a href="/blog/project02/05-平台属性管理-Attrs组件.html" class="sidebar-link">05-平台属性管理-Attrs组件</a></li><li><a href="/blog/project02/06-SPU管理-Spu组件.html" class="sidebar-link">06-SPU管理-Spu组件</a></li><li><a href="/blog/project02/07-SPU编辑-SpuForm组件.html" class="sidebar-link">07-SPU编辑-SpuForm组件</a></li><li><a href="/blog/project02/08-SKU添加-SkuForm组件.html" class="sidebar-link">08-SKU添加-SkuForm组件</a></li><li><a href="/blog/project02/09-SKU管理-Sku组件.html" class="sidebar-link">09-SKU管理-Sku组件</a></li><li><a href="/blog/project02/10-图表-DashBoard组件.html" class="sidebar-link">10-图表-DashBoard组件</a></li></ul></section></li></ul> </aside> <div class="password-shadow password-wrapper-in" style="display:none;" data-v-59e6cb88 data-v-7dd95ae2><h3 class="title" data-v-59e6cb88></h3> <!----> <label id="box" class="inputBox" data-v-59e6cb88><input type="password" value="" data-v-59e6cb88> <span data-v-59e6cb88>Konck! Knock!</span> <button data-v-59e6cb88>OK</button></label> <div class="footer" data-v-59e6cb88><span data-v-59e6cb88><i class="iconfont reco-theme" data-v-59e6cb88></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-59e6cb88>vuePress-theme-reco</a></span> <span data-v-59e6cb88><i class="iconfont reco-copyright" data-v-59e6cb88></i> <a data-v-59e6cb88><!---->
+          
+        <!---->
+        2023
+      </a></span></div></div> <div data-v-7dd95ae2><div data-v-7dd95ae2><main class="page"><section style="display:;"><div class="page-title"><h1 class="title">项目路由划分</h1> <div data-v-8a445198><!----> <!----> <!----> <!----></div></div> <div class="theme-reco-content content__default"><h2 id="项目路由划分"><a href="#项目路由划分" class="header-anchor">#</a> 项目路由划分</h2> <p>项目路由组件的结构划分如下图所示：</p> <h1 id=""><a href="#" class="header-anchor">#</a> <img src="/blog/assets/img/vueRouter.2f9f7d97.png"></h1> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">export</span> <span class="token keyword">const</span> constantRoutes <span class="token operator">=</span> <span class="token punctuation">[</span>
+<span class="token punctuation">{</span>
+    <span class="token literal-property property">path</span><span class="token operator">:</span> <span class="token string">&quot;/login&quot;</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">component</span><span class="token operator">:</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=</span> <span class="token operator">&gt;</span><span class="token keyword">import</span><span class="token punctuation">(</span><span class="token string">&quot;@/views/login/index&quot;</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">hidden</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+
+<span class="token punctuation">{</span>
+    <span class="token literal-property property">path</span><span class="token operator">:</span> <span class="token string">&quot;/product&quot;</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">name</span><span class="token operator">:</span> <span class="token string">&quot;Product&quot;</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">component</span><span class="token operator">:</span> Layout<span class="token punctuation">,</span>
+    <span class="token literal-property property">meta</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token literal-property property">title</span><span class="token operator">:</span> <span class="token string">&quot;商品管理&quot;</span><span class="token punctuation">,</span>
+        <span class="token literal-property property">icon</span><span class="token operator">:</span> <span class="token string">&quot;el-icon-goods&quot;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">children</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token punctuation">{</span>
+        <span class="token literal-property property">path</span><span class="token operator">:</span> <span class="token string">&quot;trademark&quot;</span><span class="token punctuation">,</span>
+        <span class="token literal-property property">name</span><span class="token operator">:</span> <span class="token string">&quot;Trademark&quot;</span><span class="token punctuation">,</span>
+        <span class="token literal-property property">component</span><span class="token operator">:</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=</span> <span class="token operator">&gt;</span><span class="token keyword">import</span><span class="token punctuation">(</span><span class="token string">&quot;@/views/product/trademark&quot;</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+        <span class="token literal-property property">meta</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+            <span class="token literal-property property">title</span><span class="token operator">:</span> <span class="token string">&quot;品牌管理&quot;</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token punctuation">{</span>
+        <span class="token literal-property property">path</span><span class="token operator">:</span> <span class="token string">&quot;attrs&quot;</span><span class="token punctuation">,</span>
+        <span class="token literal-property property">name</span><span class="token operator">:</span> <span class="token string">&quot;Attrs&quot;</span><span class="token punctuation">,</span>
+        <span class="token literal-property property">component</span><span class="token operator">:</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=</span> <span class="token operator">&gt;</span><span class="token keyword">import</span><span class="token punctuation">(</span><span class="token string">&quot;@/views/product/attrs&quot;</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+        <span class="token literal-property property">meta</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+            <span class="token literal-property property">title</span><span class="token operator">:</span> <span class="token string">&quot;平台属性管理&quot;</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token punctuation">]</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token operator">...</span>
+<span class="token punctuation">]</span><span class="token punctuation">;</span>
+
+<span class="token keyword">const</span> createRouter <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=</span> <span class="token operator">&gt;</span><span class="token keyword">new</span> <span class="token class-name">Router</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    <span class="token literal-property property">scrollBehavior</span><span class="token operator">:</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=</span> <span class="token operator">&gt;</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+        <span class="token literal-property property">y</span><span class="token operator">:</span> <span class="token number">0</span>
+        <span class="token comment">//  页面路由跳转后，设置滚动条位置在垂直方向上的最顶端；</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">routes</span><span class="token operator">:</span> constantRoutes<span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">const</span> router <span class="token operator">=</span> <span class="token function">createRouter</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><h2 id="导航守卫"><a href="#导航守卫" class="header-anchor">#</a> 导航守卫</h2> <p>进行路由跳转前的判断。比如未登录情况下不能进行某些页面的访问。</p> <div class="language- extra-class"><pre class="language-text"><code>router.beforeEach(async(to, from, next) = &gt;{
+	// 判断本地有无token。
+    if (hasToken) {
+    // 1. 如果有token，证明已登录过；再进行是否向登录组件的跳转 
+        if (to.path === '/login') {
+            // 1.1 如果是，则表明目前是在已登录的情况下再向登录组件跳转，直接重定向至网站首页。
+            next({ path: '/' }) 
+        } 
+    } else {
+        2. 没有token，证明还未登录过；再进行在未登录情况下，是否能直接跳向目标页面的判断
+        if (whiteList.indexOf(to.path) !== -1) {
+            // 2.1 可以直接跳向目标页面，正常放行
+            next()
+        } 
+        else {
+            // 2.2 其他页面不允许在未登录的情况下进行访问。所以要先重定向至登录页。
+            next(`/login?redirect = ${to.path}`)
+        }
+    }
+})
+</code></pre></div></div></section> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev"><a href="/blog/project02/01-项目初始化.html" class="prev">
+          01-项目初始化
+        </a></span> <span class="next"><a href="/blog/project02/03-登录业务-Login组件.html">
+          03-登录业务-Login组件
+        </a></span></p></div> <div class="comments-wrapper"><!----></div></main></div> <!----></div> <ul class="sub-sidebar sub-sidebar-wrapper" style="width:12rem;" data-v-b57cc07c data-v-7dd95ae2><li class="level-2" data-v-b57cc07c><a href="/blog/project02/02-%E9%A1%B9%E7%9B%AE%E8%B7%AF%E7%94%B1%E9%85%8D%E7%BD%AE.html#项目路由划分" class="sidebar-link reco-side-项目路由划分" data-v-b57cc07c>项目路由划分</a></li><li class="level-2" data-v-b57cc07c><a href="/blog/project02/02-%E9%A1%B9%E7%9B%AE%E8%B7%AF%E7%94%B1%E9%85%8D%E7%BD%AE.html#导航守卫" class="sidebar-link reco-side-导航守卫" data-v-b57cc07c>导航守卫</a></li></ul></div></div></div><div class="global-ui"><div class="back-to-ceiling" style="right:1rem;bottom:6rem;width:2.5rem;height:2.5rem;border-radius:.25rem;line-height:2.5rem;display:none;" data-v-c6073ba8 data-v-c6073ba8><svg t="1574745035067" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="5404" class="icon" data-v-c6073ba8><path d="M526.60727968 10.90185116a27.675 27.675 0 0 0-29.21455937 0c-131.36607665 82.28402758-218.69155461 228.01873535-218.69155402 394.07834331a462.20625001 462.20625001 0 0 0 5.36959153 69.94390903c1.00431239 6.55289093-0.34802892 13.13561351-3.76865779 18.80351572-32.63518765 54.11355614-51.75690182 118.55860487-51.7569018 187.94566865a371.06718723 371.06718723 0 0 0 11.50484808 91.98906777c6.53300375 25.50556257 41.68394495 28.14064038 52.69160883 4.22606766 17.37162448-37.73630017 42.14135425-72.50938081 72.80769204-103.21549295 2.18761121 3.04276886 4.15646224 6.24463696 6.40373557 9.22774369a1871.4375 1871.4375 0 0 0 140.04691725 5.34970492 1866.36093723 1866.36093723 0 0 0 140.04691723-5.34970492c2.24727335-2.98310674 4.21612437-6.18497483 6.3937923-9.2178004 30.66633723 30.70611158 55.4360664 65.4791928 72.80769147 103.21549355 11.00766384 23.91457269 46.15860503 21.27949489 52.69160879-4.22606768a371.15156223 371.15156223 0 0 0 11.514792-91.99901164c0-69.36717486-19.13165746-133.82216804-51.75690182-187.92578088-3.42062944-5.66790279-4.76302748-12.26056868-3.76865837-18.80351632a462.20625001 462.20625001 0 0 0 5.36959269-69.943909c-0.00994388-166.08943902-87.32547796-311.81420293-218.6915546-394.09823051zM605.93803103 357.87693858a93.93749974 93.93749974 0 1 1-187.89594924 6.1e-7 93.93749974 93.93749974 0 0 1 187.89594924-6.1e-7z" p-id="5405" data-v-c6073ba8></path><path d="M429.50777625 765.63860547C429.50777625 803.39355007 466.44236686 1000.39046097 512.00932183 1000.39046097c45.56695499 0 82.4922232-197.00623328 82.5015456-234.7518555 0-37.75494459-36.9345906-68.35043303-82.4922232-68.34111062-45.57627738-0.00932239-82.52019037 30.59548842-82.51086798 68.34111062z" p-id="5406" data-v-c6073ba8></path></svg></div></div></div>
+    <script src="/blog/assets/js/app.da6f0918.js" defer></script><script src="/blog/assets/js/3.31f72e99.js" defer></script><script src="/blog/assets/js/1.66bfa7cb.js" defer></script><script src="/blog/assets/js/34.648a6bf2.js" defer></script>
+  </body>
+</html>

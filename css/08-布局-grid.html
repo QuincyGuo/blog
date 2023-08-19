@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>创建grid布局 | QuincyGuo的博客</title>
+    <meta name="generator" content="VuePress 1.9.9">
+    
+    <meta name="description" content="QuincyGuo记录学习笔记的地方">
+    
+    <link rel="preload" href="/blog/assets/css/0.styles.517234e0.css" as="style"><link rel="preload" href="/blog/assets/js/app.da6f0918.js" as="script"><link rel="preload" href="/blog/assets/js/3.31f72e99.js" as="script"><link rel="preload" href="/blog/assets/js/1.66bfa7cb.js" as="script"><link rel="preload" href="/blog/assets/js/46.b0a79868.js" as="script"><link rel="prefetch" href="/blog/assets/js/10.2b38e72b.js"><link rel="prefetch" href="/blog/assets/js/11.f8c71519.js"><link rel="prefetch" href="/blog/assets/js/12.710fd6c0.js"><link rel="prefetch" href="/blog/assets/js/13.44052457.js"><link rel="prefetch" href="/blog/assets/js/14.f25c266d.js"><link rel="prefetch" href="/blog/assets/js/15.9ece246a.js"><link rel="prefetch" href="/blog/assets/js/16.86059fd5.js"><link rel="prefetch" href="/blog/assets/js/17.c4276fe9.js"><link rel="prefetch" href="/blog/assets/js/18.88e0f881.js"><link rel="prefetch" href="/blog/assets/js/19.ada81520.js"><link rel="prefetch" href="/blog/assets/js/20.f73ffdc5.js"><link rel="prefetch" href="/blog/assets/js/21.7ce2f3dd.js"><link rel="prefetch" href="/blog/assets/js/22.c1352cbb.js"><link rel="prefetch" href="/blog/assets/js/23.685342e3.js"><link rel="prefetch" href="/blog/assets/js/24.59f99b66.js"><link rel="prefetch" href="/blog/assets/js/25.332b41f3.js"><link rel="prefetch" href="/blog/assets/js/26.a4d6827e.js"><link rel="prefetch" href="/blog/assets/js/27.6f0e2396.js"><link rel="prefetch" href="/blog/assets/js/28.1c0009e8.js"><link rel="prefetch" href="/blog/assets/js/29.58aa4104.js"><link rel="prefetch" href="/blog/assets/js/30.ca8df5cd.js"><link rel="prefetch" href="/blog/assets/js/31.cd1b173f.js"><link rel="prefetch" href="/blog/assets/js/32.d3fa4616.js"><link rel="prefetch" href="/blog/assets/js/33.468a9d41.js"><link rel="prefetch" href="/blog/assets/js/34.648a6bf2.js"><link rel="prefetch" href="/blog/assets/js/35.5137f8c8.js"><link rel="prefetch" href="/blog/assets/js/36.61ffc937.js"><link rel="prefetch" href="/blog/assets/js/37.e984efff.js"><link rel="prefetch" href="/blog/assets/js/38.789114bb.js"><link rel="prefetch" href="/blog/assets/js/39.335bf6a5.js"><link rel="prefetch" href="/blog/assets/js/4.069e1d11.js"><link rel="prefetch" href="/blog/assets/js/40.cc63a04d.js"><link rel="prefetch" href="/blog/assets/js/41.ab4563a7.js"><link rel="prefetch" href="/blog/assets/js/42.a9562e76.js"><link rel="prefetch" href="/blog/assets/js/43.a5a460c1.js"><link rel="prefetch" href="/blog/assets/js/44.8fc6e8bc.js"><link rel="prefetch" href="/blog/assets/js/45.8a098be8.js"><link rel="prefetch" href="/blog/assets/js/47.b6a7d238.js"><link rel="prefetch" href="/blog/assets/js/48.41f3fb63.js"><link rel="prefetch" href="/blog/assets/js/49.0c30d2c1.js"><link rel="prefetch" href="/blog/assets/js/5.7ce3c667.js"><link rel="prefetch" href="/blog/assets/js/50.1bce5996.js"><link rel="prefetch" href="/blog/assets/js/51.92f7cc75.js"><link rel="prefetch" href="/blog/assets/js/52.b086688e.js"><link rel="prefetch" href="/blog/assets/js/53.7d77ed0c.js"><link rel="prefetch" href="/blog/assets/js/54.da2522ff.js"><link rel="prefetch" href="/blog/assets/js/55.e7a2a247.js"><link rel="prefetch" href="/blog/assets/js/56.1722bcd4.js"><link rel="prefetch" href="/blog/assets/js/57.641fdfff.js"><link rel="prefetch" href="/blog/assets/js/58.f820535c.js"><link rel="prefetch" href="/blog/assets/js/59.b87b5b36.js"><link rel="prefetch" href="/blog/assets/js/6.9c5bd94c.js"><link rel="prefetch" href="/blog/assets/js/60.7cdf3e60.js"><link rel="prefetch" href="/blog/assets/js/61.d566c069.js"><link rel="prefetch" href="/blog/assets/js/7.5d2d87e4.js"><link rel="prefetch" href="/blog/assets/js/8.2fe6f6e4.js"><link rel="prefetch" href="/blog/assets/js/9.d1107a3f.js">
+    <link rel="stylesheet" href="/blog/assets/css/0.styles.517234e0.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container" data-v-7dd95ae2><div data-v-7dd95ae2><div class="password-shadow password-wrapper-out" style="display:none;" data-v-59e6cb88 data-v-7dd95ae2 data-v-7dd95ae2><h3 class="title" data-v-59e6cb88>QuincyGuo的博客</h3> <p class="description" data-v-59e6cb88>QuincyGuo记录学习笔记的地方</p> <label id="box" class="inputBox" data-v-59e6cb88><input type="password" value="" data-v-59e6cb88> <span data-v-59e6cb88>Konck! Knock!</span> <button data-v-59e6cb88>OK</button></label> <div class="footer" data-v-59e6cb88><span data-v-59e6cb88><i class="iconfont reco-theme" data-v-59e6cb88></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-59e6cb88>vuePress-theme-reco</a></span> <span data-v-59e6cb88><i class="iconfont reco-copyright" data-v-59e6cb88></i> <a data-v-59e6cb88><!---->
+          
+        <!---->
+        2023
+      </a></span></div></div> <div class="hide" data-v-7dd95ae2><header class="navbar" data-v-7dd95ae2><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/blog/" class="home-link router-link-active"><!----> <span class="site-name">QuincyGuo的博客</span></a> <div class="links"><div class="color-picker"><a class="color-button"><i class="iconfont reco-color"></i></a> <div class="color-picker-menu" style="display:none;"><div class="mode-options"><h4 class="title">Choose mode</h4> <ul class="color-mode-options"><li class="dark">dark</li><li class="auto active">auto</li><li class="light">light</li></ul></div></div></div> <div class="search-box"><i class="iconfont reco-search"></i> <input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/blog/project01/01-项目初始化.html" class="nav-link"><i class="undefined"></i>
+  PROJECT-SHOPING
+</a></div><div class="nav-item"><a href="/blog/project02/01-项目初始化.html" class="nav-link"><i class="undefined"></i>
+  PROJECT-MANAGE
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="undefined"></i>
+      HTML&amp;CSS
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blog/html/01-标签.html" class="nav-link"><i class="undefined"></i>
+  HTML
+</a></li><li class="dropdown-item"><!----> <a href="/blog/css/01-基本知识.html" class="nav-link"><i class="undefined"></i>
+  CSS
+</a></li></ul></div></div><div class="nav-item"><a href="/blog/js/基础知识.html" class="nav-link"><i class="undefined"></i>
+  JAVASCRIPT
+</a></div><div class="nav-item"><a href="/blog/dataVisualization/01-canvas.html" class="nav-link"><i class="undefined"></i>
+  DATA-VISUALIZATION
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="undefined"></i>
+      OTHER WEBSITES
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://github.com/quincyguo" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="undefined"></i>
+  Github
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask" data-v-7dd95ae2></div> <aside class="sidebar" data-v-7dd95ae2><div class="personal-info-wrapper" data-v-1fad0c41 data-v-7dd95ae2><!----> <!----> <div class="num" data-v-1fad0c41><div data-v-1fad0c41><h3 data-v-1fad0c41>49</h3> <h6 data-v-1fad0c41>Articles</h6></div> <div data-v-1fad0c41><h3 data-v-1fad0c41>0</h3> <h6 data-v-1fad0c41>Tags</h6></div></div> <ul class="social-links" data-v-1fad0c41></ul> <hr data-v-1fad0c41></div> <nav class="nav-links"><div class="nav-item"><a href="/blog/project01/01-项目初始化.html" class="nav-link"><i class="undefined"></i>
+  PROJECT-SHOPING
+</a></div><div class="nav-item"><a href="/blog/project02/01-项目初始化.html" class="nav-link"><i class="undefined"></i>
+  PROJECT-MANAGE
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="undefined"></i>
+      HTML&amp;CSS
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blog/html/01-标签.html" class="nav-link"><i class="undefined"></i>
+  HTML
+</a></li><li class="dropdown-item"><!----> <a href="/blog/css/01-基本知识.html" class="nav-link"><i class="undefined"></i>
+  CSS
+</a></li></ul></div></div><div class="nav-item"><a href="/blog/js/基础知识.html" class="nav-link"><i class="undefined"></i>
+  JAVASCRIPT
+</a></div><div class="nav-item"><a href="/blog/dataVisualization/01-canvas.html" class="nav-link"><i class="undefined"></i>
+  DATA-VISUALIZATION
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="undefined"></i>
+      OTHER WEBSITES
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://github.com/quincyguo" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="undefined"></i>
+  Github
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></div></div> <!----></nav> <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><a href="/blog/css/01-基本知识" class="sidebar-heading clickable open"><span>CSS</span> <!----></a> <ul class="sidebar-links sidebar-group-items"><li><a href="/blog/css/01-基本知识.html" class="sidebar-link">基本知识</a></li><li><a href="/blog/css/02-选择器.html" class="sidebar-link">选择器</a></li></ul></section></li></ul> </aside> <div class="password-shadow password-wrapper-in" style="display:none;" data-v-59e6cb88 data-v-7dd95ae2><h3 class="title" data-v-59e6cb88></h3> <!----> <label id="box" class="inputBox" data-v-59e6cb88><input type="password" value="" data-v-59e6cb88> <span data-v-59e6cb88>Konck! Knock!</span> <button data-v-59e6cb88>OK</button></label> <div class="footer" data-v-59e6cb88><span data-v-59e6cb88><i class="iconfont reco-theme" data-v-59e6cb88></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-59e6cb88>vuePress-theme-reco</a></span> <span data-v-59e6cb88><i class="iconfont reco-copyright" data-v-59e6cb88></i> <a data-v-59e6cb88><!---->
+          
+        <!---->
+        2023
+      </a></span></div></div> <div data-v-7dd95ae2><div data-v-7dd95ae2><main class="page"><section style="display:;"><div class="page-title"><h1 class="title">创建grid布局</h1> <div data-v-8a445198><!----> <!----> <!----> <!----></div></div> <div class="theme-reco-content content__default"><h2 id="创建grid布局"><a href="#创建grid布局" class="header-anchor">#</a> 创建grid布局</h2> <p>给<code>&lt;div&gt;</code>这类块状元素元素设置<code>display:grid</code>或者给<code>&lt;span&gt;</code>这类内联元素设置<code>display:inline-grid</code>，Grid布局即创建！</p> <p>Flex 布局是轴线布局，只能指定&quot;项目&quot;针对轴线的位置，可以看作是<strong>一维布局</strong>。</p> <p>Grid 布局则是将容器划分成&quot;行&quot;和&quot;列&quot;，产生单元格，然后将单元格区域划分给HTML元素，可以看作是<strong>二维布局</strong>。Grid 布局比 Flex 布局强大。</p> <h2 id="grid容器与grid子项"><a href="#grid容器与grid子项" class="header-anchor">#</a> grid容器与grid子项</h2> <p>被直接设置display: grid;的元素就是“grid容器”，其子元素称为“grid子项”。</p> <div class="language- extra-class"><pre class="language-text"><code>grid和inline-grid区别在于
+
+inline-grid容器为inline特性，因此可以和图片文字一行显示；grid容器保持块状特性，宽度默认100%，不和内联元素一行显示。
+grid子项只能是grid容器的直接子元素，后代的后代不算。
+</code></pre></div><h2 id="grid容器上的属性"><a href="#grid容器上的属性" class="header-anchor">#</a> grid容器上的属性</h2> <h3 id="grid单元格建立-区域划分"><a href="#grid单元格建立-区域划分" class="header-anchor">#</a> grid单元格建立 &amp; 区域划分</h3> <h4 id="grid-template-rows和grid-template-columns-定义行列"><a href="#grid-template-rows和grid-template-columns-定义行列" class="header-anchor">#</a> grid-template-rows和grid-template-columns  定义行列</h4> <p><code>grid-template-columns</code>属性定义每一列的列宽，<code>grid-template-rows</code>属性定义每一行的行高。</p> <div class="language-css extra-class"><pre class="language-css"><code><span class="token selector">.container</span> <span class="token punctuation">{</span>
+  <span class="token property">display</span><span class="token punctuation">:</span> grid<span class="token punctuation">;</span>
+  <span class="token property">grid-template-columns</span><span class="token punctuation">:</span> auto 100px 100px<span class="token punctuation">;</span>
+  <span class="token property">grid-template-rows</span><span class="token punctuation">:</span> 33.33% 33.33% auto<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token comment">/*一个三行三列的网格，尺寸值可以是auto，绝对单位100px，相对单位33.33%*/</span>
+</code></pre></div><div class="language-css extra-class"><pre class="language-css"><code><span class="token comment">/*repeat 函数*/</span>
+<span class="token comment">/*-------------------------------------------*/</span>
+<span class="token selector">.container</span> <span class="token punctuation">{</span>
+  <span class="token property">display</span><span class="token punctuation">:</span> grid<span class="token punctuation">;</span>
+  <span class="token property">grid-template-columns</span><span class="token punctuation">:</span> <span class="token function">repeat</span><span class="token punctuation">(</span>3<span class="token punctuation">,</span> 33.33%<span class="token punctuation">)</span><span class="token punctuation">;</span>			<span class="token comment">/* 第一个参数是重复次数，后面是要重复的值。33.33%重复三次 */</span>
+  <span class="token property">grid-template-row</span><span class="token punctuation">:</span> <span class="token function">repeat</span><span class="token punctuation">(</span>2<span class="token punctuation">,</span> 100px 20px 80px<span class="token punctuation">)</span><span class="token punctuation">;</span>	<span class="token comment">/* 前面无单位参数是重复次数，后面带单位是要重复的值。因此结果是6行，100 20 80 100 20 80 */</span>
+<span class="token punctuation">}</span>
+</code></pre></div><div class="language-css extra-class"><pre class="language-css"><code><span class="token comment">/*fr 分数关键字*/</span>
+<span class="token comment">/*-------------------------------------------*/</span>
+<span class="token selector">.container</span> <span class="token punctuation">{</span>
+  <span class="token property">display</span><span class="token punctuation">:</span> grid<span class="token punctuation">;</span>
+  <span class="token property">grid-template-columns</span><span class="token punctuation">:</span> 1fr 2fr<span class="token punctuation">;</span>			<span class="token comment">/* 两列，第二列是第一列宽度的2倍 */</span>
+  <span class="token property">grid-template-columns</span><span class="token punctuation">:</span> 150px 1fr 2fr<span class="token punctuation">;</span>		<span class="token comment">/* 三列，第一列宽150px，第三列是第二列的2倍 */</span>
+<span class="token punctuation">}</span>
+<span class="token comment">/* 计算方式是，如果有绝对宽度就先用容器宽度减去，然后剩下的fr们各自按照比例计算各自宽度。*/</span>
+</code></pre></div><div class="language-css extra-class"><pre class="language-css"><code><span class="token comment">/*minmax 内置函数*/</span>
+<span class="token comment">/*-------------------------------------------*/</span>
+<span class="token selector">.container</span> <span class="token punctuation">{</span>
+  <span class="token property">display</span><span class="token punctuation">:</span> grid<span class="token punctuation">;</span>
+  <span class="token property">grid-template-columns</span><span class="token punctuation">:</span> <span class="token property">grid-template-columns</span><span class="token punctuation">:</span> <span class="token function">repeat</span><span class="token punctuation">(</span>3<span class="token punctuation">,</span> <span class="token function">minmax</span><span class="token punctuation">(</span>90px<span class="token punctuation">,</span>1fr<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>		
+  <span class="token comment">/*三列，每列都是最小90px，最大1fr*/</span>
+<span class="token punctuation">}</span>
+<span class="token comment">/* 用于设置 grid-template-columns 和 grid-template-rows 的值。它的作用是在网格容器改变大小时限制网格项的大小。*/</span>
+</code></pre></div><div class="language-css extra-class"><pre class="language-css"><code><span class="token comment">/*fr 与 auto*/</span>
+<span class="token comment">/*-------------------------------------------*/</span>
+
+<span class="token comment">/* 如果没有设置fr尺寸的网格，auto表现为拉伸，即其他定尺寸的单元格计算完后，剩下的全是auto的。
+   当有设置fr尺寸的时候，auto的尺寸表现为“包裹”，即为单元格里的内容宽度。*/</span>
+</code></pre></div><div class="language-css extra-class"><pre class="language-css"><code><span class="token comment">/*网格线名称*/</span>
+<span class="token comment">/*-------------------------------------------*/</span>
+<span class="token selector">.container</span> <span class="token punctuation">{</span>
+  <span class="token property">display</span><span class="token punctuation">:</span> grid<span class="token punctuation">;</span>
+  <span class="token property">grid-template-columns</span><span class="token punctuation">:</span> [c1] 100px [c2] 100px [c3] auto [c4]<span class="token punctuation">;</span>	<span class="token comment">/* 列线c1，列线c2，列线c3，列线c4 */</span>
+  <span class="token property">grid-template-rows</span><span class="token punctuation">:</span> [r1] 100px [r2] 100px [r3] auto [r4]<span class="token punctuation">;</span>		<span class="token comment">/* 行线r1，行线r2，行线r3，行线r4， */</span>
+<span class="token punctuation">}</span>
+<span class="token comment">/* 线总是比单元格数目多一。*/</span>
+<span class="token comment">/* 一根线可以有两个名字，用空格线分隔，表示两侧；[第1根纵线结束 第2根纵线开始]*/</span>
+</code></pre></div><h4 id="auto-fill-与-auto-fit"><a href="#auto-fill-与-auto-fit" class="header-anchor">#</a> auto-fill 与 auto-fit</h4> <div class="language-css extra-class"><pre class="language-css"><code><span class="token comment">/*repeat函数的autofill关键字*/</span>
+<span class="token comment">/*-------------------------------------------*/</span>
+<span class="token selector">.container</span> <span class="token punctuation">{</span>
+  <span class="token property">display</span><span class="token punctuation">:</span> grid<span class="token punctuation">;</span>
+  <span class="token property">grid-template-columns</span><span class="token punctuation">:</span> <span class="token function">repeat</span><span class="token punctuation">(</span>auto-fill<span class="token punctuation">,</span> <span class="token function">minmax</span><span class="token punctuation">(</span>60px<span class="token punctuation">,</span> 1fr<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>	
+  <span class="token comment">/* 单元格列宽最小60px，最大宽度这一行所有格平分列宽度，自动填充为列 */</span>
+<span class="token punctuation">}</span>
+<span class="token comment">/*
+这个的原理是，容器宽度尽量想容纳更多的单元格。
+容器宽度变大过程中，一旦发现在满足目前所有格宽度最小为60的前提下，能够再加进来一个最小宽为60的单元格（即使创建出来的列没有任何内容，但实际上还是占据了行的空间，所以后面会留空白），则把所有格（包括新加的）宽度都调整为60；若不能，则拉伸现有单元格宽度。
+容器宽度变小过程中，一旦发现再小，目前所有格宽度就小于60了，则删除新创建的没内容的单元格或者将最后有内容的单元格挪到下一行，然后剩下的单元格再平分所有宽度。
+*/</span>
+</code></pre></div><div class="language-css extra-class"><pre class="language-css"><code><span class="token comment">/*repeat函数的autofit关键字*/</span>
+<span class="token comment">/*-------------------------------------------*/</span>
+<span class="token selector">.container</span> <span class="token punctuation">{</span>
+  <span class="token property">display</span><span class="token punctuation">:</span> grid<span class="token punctuation">;</span>
+  <span class="token property">grid-template-columns</span><span class="token punctuation">:</span> <span class="token function">repeat</span><span class="token punctuation">(</span>auto-fit<span class="token punctuation">,</span> <span class="token function">minmax</span><span class="token punctuation">(</span>60px<span class="token punctuation">,</span> 1fr<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>	
+  <span class="token comment">/* 单元格列宽最小60px，最大宽度这一行所有格平分列宽度，自动填充为列 */</span>
+<span class="token punctuation">}</span>
+<span class="token comment">/*
+在所有有内容的单元格没有在同一行时：（容器的大小小于各网格项之和时）
+容器宽度变大过程中，和auto-fill一样，会倾向于让当前行占据更多的单元格，一旦发现能插入新的60，则插入，压缩大家空间；变小也是一样，再小就不够每个单元格60，则把最后的挪到下一行。
+但是所有有内容的单元格在同一行时：（容器的大小大于各网格项之和时）
+容器再变大，auto-fit就不会新加没内容的单元格，而是让大家都开始平等拉伸。
+*/</span>
+</code></pre></div><h4 id="grid-template-areas-单元格区域划分"><a href="#grid-template-areas-单元格区域划分" class="header-anchor">#</a> grid-template-areas  单元格区域划分</h4> <div class="language-html extra-class"><pre class="language-html"><code><span class="token comment">&lt;!-- 网格区域使用实例 --&gt;</span>
+<span class="token comment">&lt;!------------------------------------------- --&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>style</span><span class="token punctuation">&gt;</span></span><span class="token style"><span class="token language-css">
+  <span class="token selector">.container</span> <span class="token punctuation">{</span>
+    <span class="token property">display</span><span class="token punctuation">:</span> grid<span class="token punctuation">;</span>
+    <span class="token property">width</span><span class="token punctuation">:</span> 600px<span class="token punctuation">;</span>
+    <span class="token property">height</span><span class="token punctuation">:</span> 600px<span class="token punctuation">;</span>
+    <span class="token property">grid-template-columns</span><span class="token punctuation">:</span> 1fr 1fr 1fr<span class="token punctuation">;</span>
+    <span class="token property">grid-template-rows</span><span class="token punctuation">:</span> 1fr 1fr 1fr 1fr<span class="token punctuation">;</span>
+    <span class="token property">grid-template-areas</span><span class="token punctuation">:</span>
+      <span class="token string">&quot;葡萄 葡萄 葡萄&quot;</span>
+      <span class="token string">&quot;龙虾 养鱼 养鱼&quot;</span>
+      <span class="token string">&quot;龙虾 养鱼 养鱼&quot;</span>
+      <span class="token string">&quot;西瓜 西瓜 西瓜&quot;</span><span class="token punctuation">;</span>	<span class="token comment">/*区域的命名（其实命名就表示了划分，将这些单元格区域统一命名，属于同一区域）*/</span>
+  <span class="token punctuation">}</span>
+    
+  <span class="token comment">/*以上部分是将容器划分行列，产生单元格*/</span>
+  <span class="token comment">/*-------------------------------*/</span>
+
+  <span class="token selector">.putao</span> <span class="token punctuation">{</span>
+    <span class="token property">grid-area</span><span class="token punctuation">:</span> 葡萄<span class="token punctuation">;</span>
+    <span class="token property">background-color</span><span class="token punctuation">:</span> aqua<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token selector">.longxia</span> <span class="token punctuation">{</span>
+    <span class="token property">grid-area</span><span class="token punctuation">:</span> 龙虾<span class="token punctuation">;</span>
+    <span class="token property">background-color</span><span class="token punctuation">:</span> rebeccapurple<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token selector">.yangyu</span> <span class="token punctuation">{</span>
+    <span class="token property">grid-area</span><span class="token punctuation">:</span> 养鱼<span class="token punctuation">;</span>
+    <span class="token property">background-color</span><span class="token punctuation">:</span> black<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token selector">.xigua</span> <span class="token punctuation">{</span>
+    <span class="token property">grid-area</span><span class="token punctuation">:</span> 西瓜<span class="token punctuation">;</span>
+    <span class="token property">background-color</span><span class="token punctuation">:</span> cadetblue<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+  <span class="token comment">/*以上部分是指定哪些单元格归于哪些HTML元素*/</span>
+  <span class="token comment">/*-------------------------------*/</span>
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>style</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>container<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>putao<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>longxia<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>yangyu<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>xigua<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token comment">&lt;!-- 
+如果我们给网格区域命了名，但是没有给网格线命名，则会自动根据网格区域名称生成网格线名称，规则是区域名称后面加-start和-end。例如，某网格区域名称是“葡萄”，则左侧column线名称就是“葡萄-start”，右侧column线名称就是“葡萄-end”。 
+
+我们的网格区域，即grid-template-areas的区域命名划分一定要形成规整的矩形区域，L形、凹的或凸的形状都是不支持的，会认为是无效的属性值。
+
+实际开发的时候，葡萄种植区就是头部区域，龙虾就是侧边栏区域，鱼类养殖区就是主区域，西瓜种植区就是底部区域。
+--&gt;</span>
+</code></pre></div><h4 id="gap-单元格间隙尺寸"><a href="#gap-单元格间隙尺寸" class="header-anchor">#</a> gap 单元格间隙尺寸</h4> <div class="language-css extra-class"><pre class="language-css"><code><span class="token selector">.container</span> <span class="token punctuation">{</span>
+    <span class="token property">grid-column-gap</span><span class="token punctuation">:</span> 10px 15px<span class="token punctuation">;</span>		<span class="token comment">/*第一个是横，也就是行间距；第二个是竖，也就是列间距；如果只有一个数值，则两个一致；*/</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h4 id="grid-auto-columns-和-grid-auto-rows-隐式网格"><a href="#grid-auto-columns-和-grid-auto-rows-隐式网格" class="header-anchor">#</a> grid-auto-columns 和 grid-auto-rows 隐式网格</h4> <p>有时候，一些项目的指定位置，在现有网格的外部。比如网格只有3列，但是某一个项目指定在第5行。这时，浏览器会自动生成多余的网格，以便放置项目。</p> <p>grid-auto-columns<code>属性和</code>grid-auto-rows属性用来设置，浏览器自动创建的多余网格的列宽和行高。它们的写法与grid-template-columns和grid-template-rows完全相同。如果不指定这两个属性，浏览器完全根据单元格内容的大小，决定新增网格的列宽和行高。</p> <p>这里就暂时先不看了。</p> <h3 id="水平竖直位置分布"><a href="#水平竖直位置分布" class="header-anchor">#</a> 水平竖直位置分布</h3> <h4 id="justify-items-与-align-items-区域里的内容水平竖直位置"><a href="#justify-items-与-align-items-区域里的内容水平竖直位置" class="header-anchor">#</a> justify-items 与 align-items  区域里的内容水平竖直位置</h4> <div class="language-css extra-class"><pre class="language-css"><code><span class="token selector">内容在区域里的位置分布，是左对齐，还是中间对齐，还是布满整个区域
+.container</span> <span class="token punctuation">{</span>
+  <span class="token property">justify-items</span><span class="token punctuation">:</span> start | end | center | stretch<span class="token punctuation">;</span>	<span class="token comment">/*水平方向*/</span>
+  <span class="token property">align-items</span><span class="token punctuation">:</span> start | end | center | stretch<span class="token punctuation">;</span>		<span class="token comment">/*垂直方向*/</span>
+<span class="token punctuation">}</span>
+<span class="token comment">/*
+start：	内容对齐区域的起始边缘。
+end：	内容对齐区域的结束边缘。
+center：	内容在区域内部居中。
+stretch：拉伸，占满区域的整个宽度，这个是默认值，两个属性只写一个时，另一个方向就会默认填满区域。
+（假设内容本身占不满区域，那么拉伸属性会让内容的背景区域占据整个区域空间，即使内容背景为空。而前面三个属性则会空出占不满的区域空间，也就是区域的背景属性会显露出来）
+*/</span>
+</code></pre></div><h4 id="place-items-先a后j"><a href="#place-items-先a后j" class="header-anchor">#</a> place-items  先a后j</h4> <div class="language-css extra-class"><pre class="language-css"><code><span class="token selector">.container</span> <span class="token punctuation">{</span>
+  <span class="token property">place-items</span><span class="token punctuation">:</span> align-items justify-items：<span class="token punctuation">;</span>	<span class="token comment">/*垂直方向 水平方向，先垂直后水平，ajaj*/</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h4 id="justify-content-与-align-content-区域在容器内水平竖直位置"><a href="#justify-content-与-align-content-区域在容器内水平竖直位置" class="header-anchor">#</a> justify-content 与 align-content  区域在容器内水平竖直位置</h4> <p>此属性仅在区域总宽度小于grid容器宽度时候有效果。例如，我们单元格设定的都是固定的宽度值，容器内还有剩余空间。</p> <div class="language-css extra-class"><pre class="language-css"><code><span class="token selector">.container</span> <span class="token punctuation">{</span>
+  <span class="token property">justify-content</span><span class="token punctuation">:</span> start | end | center | stretch | space-around | space-between | space-evenly<span class="token punctuation">;</span>
+  <span class="token property">align-content</span><span class="token punctuation">:</span> start | end | center | stretch | space-around | space-between | space-evenly<span class="token punctuation">;</span>  
+<span class="token punctuation">}</span>
+<span class="token comment">/*
+start			区域对齐容器的起始边框。
+end				区域对齐容器的结束边框。
+center			区域在容器内部居中。
+stretch			单元格建立时未指定单元格固定大小时，会占满整个容器整个宽度，但若是有固定大小，则不能拉伸，保持原有区域大小。
+space-between 	区域两端对齐；最左和最右贴近容器边框，中间元素两侧留空白
+space-around 	环绕对齐；最左最右边缘两侧的空白只有中间空白宽度一半
+space-evenly	平等对齐；所有空白宽度相等
+*/</span>
+
+<span class="token property">place-content</span><span class="token punctuation">:</span> &lt;align-content&gt; &lt;justify-content&gt; 	<span class="token comment">/*垂直方向 水平方向，先垂直后水平，ajaj*/</span>
+</code></pre></div><h2 id="grid子项上的属性"><a href="#grid子项上的属性" class="header-anchor">#</a> grid子项上的属性</h2> <h3 id="区域指定"><a href="#区域指定" class="header-anchor">#</a> 区域指定</h3> <h4 id="grid-column-start-grid-column-end-grid-row-start和grid-row-end-指定区域起止位置"><a href="#grid-column-start-grid-column-end-grid-row-start和grid-row-end-指定区域起止位置" class="header-anchor">#</a> grid-column-start, grid-column-end, grid-row-start和grid-row-end  指定区域起止位置</h4> <p>以网格线为基准，指定区域开始结束的位置。</p> <div class="language-html extra-class"><pre class="language-html"><code>.container {
+    grid-template-columns: [第一根纵线] 80px [纵线2] auto [纵线3] 100px [最后的结束线];
+    grid-template-rows: [第一行开始] 25% [第一行结束] 100px [行3] auto [行末];
+}
+.item-a {
+    grid-column-start: 2;
+    grid-column-end: 纵线3;
+    grid-row-start: 第一行开始;
+    grid-row-end: 3;
+}
+.item-b {
+    grid-column-start: 2;
+    grid-column-end: span 纵线3;		/*表示从起始线后跨越直到遇到网格线名称为纵线3为终止*/
+    grid-row-start: 第一行开始;			
+    grid-row-end: span 3;			/*表示从起始线后跨越3根网格线为终止*/
+}
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>container<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>item-a<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>item-b<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+这四项属性的值，可以是：
+起止与第几条网格线。
+自定义的网格线的名称。
+当前区域会自动跨越指定的单元格数量。
+当前区域会自动扩展，直到命中指定的网格线名称。
+</code></pre></div><h4 id="grid-column-和-grid-row-指定区域位置的缩写"><a href="#grid-column-和-grid-row-指定区域位置的缩写" class="header-anchor">#</a> grid-column 和 grid-row 指定区域位置的缩写</h4> <div class="language-css extra-class"><pre class="language-css"><code><span class="token selector">.item-b</span> <span class="token punctuation">{</span>
+    <span class="token property">grid-column</span><span class="token punctuation">:</span> 2 / span 纵线3<span class="token punctuation">;</span>
+    <span class="token property">grid-row</span><span class="token punctuation">:</span> 第一行开始 / span 3<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h4 id="grid-area"><a href="#grid-area" class="header-anchor">#</a> grid-area</h4> <p>name | 行开始网格线 / 列开始网格线 / 行终止网格线 / 列终止网格线</p> <div class="language-css extra-class"><pre class="language-css"><code><span class="token selector">.container</span> <span class="token punctuation">{</span>
+    <span class="token property">grid-template</span><span class="token punctuation">:</span> 1fr 1fr 1fr/1fr 1fr 1fr 1fr<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token selector">.item-c</span> <span class="token punctuation">{</span> 
+    <span class="token property">grid-area</span><span class="token punctuation">:</span> 1 / 2 / 3 / 4<span class="token punctuation">;</span>
+    <span class="token property">grid-area</span><span class="token punctuation">:</span> 龙虾<span class="token punctuation">;</span>
+    <span class="token comment">/*一个是区域划分，一个*/</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h3 id="单个区域里内容位置分布"><a href="#单个区域里内容位置分布" class="header-anchor">#</a> 单个区域里内容位置分布</h3> <h4 id="justify-self-、align-self-、place-self"><a href="#justify-self-、align-self-、place-self" class="header-anchor">#</a> justify-self 、align-self 、place-self</h4> <p>justify-self属性设置单元格内容的水平位置（左中右），跟justify-items属性的用法完全一致，但只作用于单个项目。</p> <p>align-self属性设置单元格内容的垂直位置（上中下），跟align-items属性的用法完全一致，也是只作用于单个项目。</p> <p>place-self是上面两个属性的合写。</p> <h2 id="grid布局与媒体查询"><a href="#grid布局与媒体查询" class="header-anchor">#</a> grid布局与媒体查询</h2> <p>媒体查询发现容器宽度发生时，改变grid布局。</p> <div class="language-css extra-class"><pre class="language-css"><code>  <span class="token atrule"><span class="token rule">@media</span> <span class="token punctuation">(</span><span class="token property">min-width</span><span class="token punctuation">:</span> 300px<span class="token punctuation">)</span></span><span class="token punctuation">{</span>
+    <span class="token selector">.container</span><span class="token punctuation">{</span>      
+      <span class="token property">grid-template-areas</span><span class="token punctuation">:</span>
+        <span class="token string">&quot;advert header&quot;</span>
+        <span class="token string">&quot;advert content&quot;</span>
+        <span class="token string">&quot;advert footer&quot;</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+  <span class="token atrule"><span class="token rule">@media</span> <span class="token punctuation">(</span><span class="token property">min-width</span><span class="token punctuation">:</span> 400px<span class="token punctuation">)</span></span><span class="token punctuation">{</span>
+    <span class="token selector">.container</span><span class="token punctuation">{</span>
+      <span class="token property">grid-template-areas</span><span class="token punctuation">:</span>
+        <span class="token string">&quot;header header&quot;</span>
+        <span class="token string">&quot;advert content&quot;</span>
+        <span class="token string">&quot;footer footer&quot;</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+<span class="token comment">/*实际当还需要其他属性设置*/</span>
+</code></pre></div></div></section> <footer class="page-edit"><!----> <!----></footer> <!----> <div class="comments-wrapper"><!----></div></main></div> <!----></div> <ul class="sub-sidebar sub-sidebar-wrapper" style="width:12rem;" data-v-b57cc07c data-v-7dd95ae2><li class="level-2" data-v-b57cc07c><a href="/blog/css/08-%E5%B8%83%E5%B1%80-grid.html#创建grid布局" class="sidebar-link reco-side-创建grid布局" data-v-b57cc07c>创建grid布局</a></li><li class="level-2" data-v-b57cc07c><a href="/blog/css/08-%E5%B8%83%E5%B1%80-grid.html#grid容器与grid子项" class="sidebar-link reco-side-grid容器与grid子项" data-v-b57cc07c>grid容器与grid子项</a></li><li class="level-2" data-v-b57cc07c><a href="/blog/css/08-%E5%B8%83%E5%B1%80-grid.html#grid容器上的属性" class="sidebar-link reco-side-grid容器上的属性" data-v-b57cc07c>grid容器上的属性</a></li><li class="level-3" data-v-b57cc07c><a href="/blog/css/08-%E5%B8%83%E5%B1%80-grid.html#grid单元格建立-区域划分" class="sidebar-link reco-side-grid单元格建立-区域划分" data-v-b57cc07c>grid单元格建立 &amp; 区域划分</a></li><li class="level-3" data-v-b57cc07c><a href="/blog/css/08-%E5%B8%83%E5%B1%80-grid.html#水平竖直位置分布" class="sidebar-link reco-side-水平竖直位置分布" data-v-b57cc07c>水平竖直位置分布</a></li><li class="level-2" data-v-b57cc07c><a href="/blog/css/08-%E5%B8%83%E5%B1%80-grid.html#grid子项上的属性" class="sidebar-link reco-side-grid子项上的属性" data-v-b57cc07c>grid子项上的属性</a></li><li class="level-3" data-v-b57cc07c><a href="/blog/css/08-%E5%B8%83%E5%B1%80-grid.html#区域指定" class="sidebar-link reco-side-区域指定" data-v-b57cc07c>区域指定</a></li><li class="level-3" data-v-b57cc07c><a href="/blog/css/08-%E5%B8%83%E5%B1%80-grid.html#单个区域里内容位置分布" class="sidebar-link reco-side-单个区域里内容位置分布" data-v-b57cc07c>单个区域里内容位置分布</a></li><li class="level-2" data-v-b57cc07c><a href="/blog/css/08-%E5%B8%83%E5%B1%80-grid.html#grid布局与媒体查询" class="sidebar-link reco-side-grid布局与媒体查询" data-v-b57cc07c>grid布局与媒体查询</a></li></ul></div></div></div><div class="global-ui"><div class="back-to-ceiling" style="right:1rem;bottom:6rem;width:2.5rem;height:2.5rem;border-radius:.25rem;line-height:2.5rem;display:none;" data-v-c6073ba8 data-v-c6073ba8><svg t="1574745035067" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="5404" class="icon" data-v-c6073ba8><path d="M526.60727968 10.90185116a27.675 27.675 0 0 0-29.21455937 0c-131.36607665 82.28402758-218.69155461 228.01873535-218.69155402 394.07834331a462.20625001 462.20625001 0 0 0 5.36959153 69.94390903c1.00431239 6.55289093-0.34802892 13.13561351-3.76865779 18.80351572-32.63518765 54.11355614-51.75690182 118.55860487-51.7569018 187.94566865a371.06718723 371.06718723 0 0 0 11.50484808 91.98906777c6.53300375 25.50556257 41.68394495 28.14064038 52.69160883 4.22606766 17.37162448-37.73630017 42.14135425-72.50938081 72.80769204-103.21549295 2.18761121 3.04276886 4.15646224 6.24463696 6.40373557 9.22774369a1871.4375 1871.4375 0 0 0 140.04691725 5.34970492 1866.36093723 1866.36093723 0 0 0 140.04691723-5.34970492c2.24727335-2.98310674 4.21612437-6.18497483 6.3937923-9.2178004 30.66633723 30.70611158 55.4360664 65.4791928 72.80769147 103.21549355 11.00766384 23.91457269 46.15860503 21.27949489 52.69160879-4.22606768a371.15156223 371.15156223 0 0 0 11.514792-91.99901164c0-69.36717486-19.13165746-133.82216804-51.75690182-187.92578088-3.42062944-5.66790279-4.76302748-12.26056868-3.76865837-18.80351632a462.20625001 462.20625001 0 0 0 5.36959269-69.943909c-0.00994388-166.08943902-87.32547796-311.81420293-218.6915546-394.09823051zM605.93803103 357.87693858a93.93749974 93.93749974 0 1 1-187.89594924 6.1e-7 93.93749974 93.93749974 0 0 1 187.89594924-6.1e-7z" p-id="5405" data-v-c6073ba8></path><path d="M429.50777625 765.63860547C429.50777625 803.39355007 466.44236686 1000.39046097 512.00932183 1000.39046097c45.56695499 0 82.4922232-197.00623328 82.5015456-234.7518555 0-37.75494459-36.9345906-68.35043303-82.4922232-68.34111062-45.57627738-0.00932239-82.52019037 30.59548842-82.51086798 68.34111062z" p-id="5406" data-v-c6073ba8></path></svg></div></div></div>
+    <script src="/blog/assets/js/app.da6f0918.js" defer></script><script src="/blog/assets/js/3.31f72e99.js" defer></script><script src="/blog/assets/js/1.66bfa7cb.js" defer></script><script src="/blog/assets/js/46.b0a79868.js" defer></script>
+  </body>
+</html>

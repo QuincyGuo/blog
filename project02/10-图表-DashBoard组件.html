@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>静态组件 | QuincyGuo的博客</title>
+    <meta name="generator" content="VuePress 1.9.9">
+    
+    <meta name="description" content="QuincyGuo记录学习笔记的地方">
+    
+    <link rel="preload" href="/blog/assets/css/0.styles.517234e0.css" as="style"><link rel="preload" href="/blog/assets/js/app.da6f0918.js" as="script"><link rel="preload" href="/blog/assets/js/3.31f72e99.js" as="script"><link rel="preload" href="/blog/assets/js/1.66bfa7cb.js" as="script"><link rel="preload" href="/blog/assets/js/17.c4276fe9.js" as="script"><link rel="prefetch" href="/blog/assets/js/10.2b38e72b.js"><link rel="prefetch" href="/blog/assets/js/11.f8c71519.js"><link rel="prefetch" href="/blog/assets/js/12.710fd6c0.js"><link rel="prefetch" href="/blog/assets/js/13.44052457.js"><link rel="prefetch" href="/blog/assets/js/14.f25c266d.js"><link rel="prefetch" href="/blog/assets/js/15.9ece246a.js"><link rel="prefetch" href="/blog/assets/js/16.86059fd5.js"><link rel="prefetch" href="/blog/assets/js/18.88e0f881.js"><link rel="prefetch" href="/blog/assets/js/19.ada81520.js"><link rel="prefetch" href="/blog/assets/js/20.f73ffdc5.js"><link rel="prefetch" href="/blog/assets/js/21.7ce2f3dd.js"><link rel="prefetch" href="/blog/assets/js/22.c1352cbb.js"><link rel="prefetch" href="/blog/assets/js/23.685342e3.js"><link rel="prefetch" href="/blog/assets/js/24.59f99b66.js"><link rel="prefetch" href="/blog/assets/js/25.332b41f3.js"><link rel="prefetch" href="/blog/assets/js/26.a4d6827e.js"><link rel="prefetch" href="/blog/assets/js/27.6f0e2396.js"><link rel="prefetch" href="/blog/assets/js/28.1c0009e8.js"><link rel="prefetch" href="/blog/assets/js/29.58aa4104.js"><link rel="prefetch" href="/blog/assets/js/30.ca8df5cd.js"><link rel="prefetch" href="/blog/assets/js/31.cd1b173f.js"><link rel="prefetch" href="/blog/assets/js/32.d3fa4616.js"><link rel="prefetch" href="/blog/assets/js/33.468a9d41.js"><link rel="prefetch" href="/blog/assets/js/34.648a6bf2.js"><link rel="prefetch" href="/blog/assets/js/35.5137f8c8.js"><link rel="prefetch" href="/blog/assets/js/36.61ffc937.js"><link rel="prefetch" href="/blog/assets/js/37.e984efff.js"><link rel="prefetch" href="/blog/assets/js/38.789114bb.js"><link rel="prefetch" href="/blog/assets/js/39.335bf6a5.js"><link rel="prefetch" href="/blog/assets/js/4.069e1d11.js"><link rel="prefetch" href="/blog/assets/js/40.cc63a04d.js"><link rel="prefetch" href="/blog/assets/js/41.ab4563a7.js"><link rel="prefetch" href="/blog/assets/js/42.a9562e76.js"><link rel="prefetch" href="/blog/assets/js/43.a5a460c1.js"><link rel="prefetch" href="/blog/assets/js/44.8fc6e8bc.js"><link rel="prefetch" href="/blog/assets/js/45.8a098be8.js"><link rel="prefetch" href="/blog/assets/js/46.b0a79868.js"><link rel="prefetch" href="/blog/assets/js/47.b6a7d238.js"><link rel="prefetch" href="/blog/assets/js/48.41f3fb63.js"><link rel="prefetch" href="/blog/assets/js/49.0c30d2c1.js"><link rel="prefetch" href="/blog/assets/js/5.7ce3c667.js"><link rel="prefetch" href="/blog/assets/js/50.1bce5996.js"><link rel="prefetch" href="/blog/assets/js/51.92f7cc75.js"><link rel="prefetch" href="/blog/assets/js/52.b086688e.js"><link rel="prefetch" href="/blog/assets/js/53.7d77ed0c.js"><link rel="prefetch" href="/blog/assets/js/54.da2522ff.js"><link rel="prefetch" href="/blog/assets/js/55.e7a2a247.js"><link rel="prefetch" href="/blog/assets/js/56.1722bcd4.js"><link rel="prefetch" href="/blog/assets/js/57.641fdfff.js"><link rel="prefetch" href="/blog/assets/js/58.f820535c.js"><link rel="prefetch" href="/blog/assets/js/59.b87b5b36.js"><link rel="prefetch" href="/blog/assets/js/6.9c5bd94c.js"><link rel="prefetch" href="/blog/assets/js/60.7cdf3e60.js"><link rel="prefetch" href="/blog/assets/js/61.d566c069.js"><link rel="prefetch" href="/blog/assets/js/7.5d2d87e4.js"><link rel="prefetch" href="/blog/assets/js/8.2fe6f6e4.js"><link rel="prefetch" href="/blog/assets/js/9.d1107a3f.js">
+    <link rel="stylesheet" href="/blog/assets/css/0.styles.517234e0.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container" data-v-7dd95ae2><div data-v-7dd95ae2><div class="password-shadow password-wrapper-out" style="display:none;" data-v-59e6cb88 data-v-7dd95ae2 data-v-7dd95ae2><h3 class="title" data-v-59e6cb88>QuincyGuo的博客</h3> <p class="description" data-v-59e6cb88>QuincyGuo记录学习笔记的地方</p> <label id="box" class="inputBox" data-v-59e6cb88><input type="password" value="" data-v-59e6cb88> <span data-v-59e6cb88>Konck! Knock!</span> <button data-v-59e6cb88>OK</button></label> <div class="footer" data-v-59e6cb88><span data-v-59e6cb88><i class="iconfont reco-theme" data-v-59e6cb88></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-59e6cb88>vuePress-theme-reco</a></span> <span data-v-59e6cb88><i class="iconfont reco-copyright" data-v-59e6cb88></i> <a data-v-59e6cb88><!---->
+          
+        <!---->
+        2023
+      </a></span></div></div> <div class="hide" data-v-7dd95ae2><header class="navbar" data-v-7dd95ae2><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/blog/" class="home-link router-link-active"><!----> <span class="site-name">QuincyGuo的博客</span></a> <div class="links"><div class="color-picker"><a class="color-button"><i class="iconfont reco-color"></i></a> <div class="color-picker-menu" style="display:none;"><div class="mode-options"><h4 class="title">Choose mode</h4> <ul class="color-mode-options"><li class="dark">dark</li><li class="auto active">auto</li><li class="light">light</li></ul></div></div></div> <div class="search-box"><i class="iconfont reco-search"></i> <input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/blog/project01/01-项目初始化.html" class="nav-link"><i class="undefined"></i>
+  PROJECT-SHOPING
+</a></div><div class="nav-item"><a href="/blog/project02/01-项目初始化.html" class="nav-link"><i class="undefined"></i>
+  PROJECT-MANAGE
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="undefined"></i>
+      HTML&amp;CSS
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blog/html/01-标签.html" class="nav-link"><i class="undefined"></i>
+  HTML
+</a></li><li class="dropdown-item"><!----> <a href="/blog/css/01-基本知识.html" class="nav-link"><i class="undefined"></i>
+  CSS
+</a></li></ul></div></div><div class="nav-item"><a href="/blog/js/基础知识.html" class="nav-link"><i class="undefined"></i>
+  JAVASCRIPT
+</a></div><div class="nav-item"><a href="/blog/dataVisualization/01-canvas.html" class="nav-link"><i class="undefined"></i>
+  DATA-VISUALIZATION
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="undefined"></i>
+      OTHER WEBSITES
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://github.com/quincyguo" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="undefined"></i>
+  Github
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask" data-v-7dd95ae2></div> <aside class="sidebar" data-v-7dd95ae2><div class="personal-info-wrapper" data-v-1fad0c41 data-v-7dd95ae2><!----> <!----> <div class="num" data-v-1fad0c41><div data-v-1fad0c41><h3 data-v-1fad0c41>49</h3> <h6 data-v-1fad0c41>Articles</h6></div> <div data-v-1fad0c41><h3 data-v-1fad0c41>0</h3> <h6 data-v-1fad0c41>Tags</h6></div></div> <ul class="social-links" data-v-1fad0c41></ul> <hr data-v-1fad0c41></div> <nav class="nav-links"><div class="nav-item"><a href="/blog/project01/01-项目初始化.html" class="nav-link"><i class="undefined"></i>
+  PROJECT-SHOPING
+</a></div><div class="nav-item"><a href="/blog/project02/01-项目初始化.html" class="nav-link"><i class="undefined"></i>
+  PROJECT-MANAGE
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="undefined"></i>
+      HTML&amp;CSS
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blog/html/01-标签.html" class="nav-link"><i class="undefined"></i>
+  HTML
+</a></li><li class="dropdown-item"><!----> <a href="/blog/css/01-基本知识.html" class="nav-link"><i class="undefined"></i>
+  CSS
+</a></li></ul></div></div><div class="nav-item"><a href="/blog/js/基础知识.html" class="nav-link"><i class="undefined"></i>
+  JAVASCRIPT
+</a></div><div class="nav-item"><a href="/blog/dataVisualization/01-canvas.html" class="nav-link"><i class="undefined"></i>
+  DATA-VISUALIZATION
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="undefined"></i>
+      OTHER WEBSITES
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://github.com/quincyguo" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="undefined"></i>
+  Github
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></div></div> <!----></nav> <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><a href="/blog/project02/01-项目初始化" class="sidebar-heading clickable open"><span>PROJECT-MANAGE</span> <!----></a> <ul class="sidebar-links sidebar-group-items"><li><a href="/blog/project02/01-项目初始化.html" class="sidebar-link">01-项目初始化</a></li><li><a href="/blog/project02/02-项目路由配置.html" class="sidebar-link">02-项目路由配置</a></li><li><a href="/blog/project02/03-登录业务-Login组件.html" class="sidebar-link">03-登录业务-Login组件</a></li><li><a href="/blog/project02/04-品牌管理-Trademark组件.html" class="sidebar-link">04-品牌管理-Trademark组件</a></li><li><a href="/blog/project02/05-平台属性管理-Attrs组件.html" class="sidebar-link">05-平台属性管理-Attrs组件</a></li><li><a href="/blog/project02/06-SPU管理-Spu组件.html" class="sidebar-link">06-SPU管理-Spu组件</a></li><li><a href="/blog/project02/07-SPU编辑-SpuForm组件.html" class="sidebar-link">07-SPU编辑-SpuForm组件</a></li><li><a href="/blog/project02/08-SKU添加-SkuForm组件.html" class="sidebar-link">08-SKU添加-SkuForm组件</a></li><li><a href="/blog/project02/09-SKU管理-Sku组件.html" class="sidebar-link">09-SKU管理-Sku组件</a></li><li><a href="/blog/project02/10-图表-DashBoard组件.html" class="active sidebar-link">10-图表-DashBoard组件</a></li></ul></section></li></ul> </aside> <div class="password-shadow password-wrapper-in" style="display:none;" data-v-59e6cb88 data-v-7dd95ae2><h3 class="title" data-v-59e6cb88></h3> <!----> <label id="box" class="inputBox" data-v-59e6cb88><input type="password" value="" data-v-59e6cb88> <span data-v-59e6cb88>Konck! Knock!</span> <button data-v-59e6cb88>OK</button></label> <div class="footer" data-v-59e6cb88><span data-v-59e6cb88><i class="iconfont reco-theme" data-v-59e6cb88></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-59e6cb88>vuePress-theme-reco</a></span> <span data-v-59e6cb88><i class="iconfont reco-copyright" data-v-59e6cb88></i> <a data-v-59e6cb88><!---->
+          
+        <!---->
+        2023
+      </a></span></div></div> <div data-v-7dd95ae2><div data-v-7dd95ae2><main class="page"><section style="display:;"><div class="page-title"><h1 class="title">静态组件</h1> <div data-v-8a445198><!----> <!----> <!----> <!----></div></div> <div class="theme-reco-content content__default"><h2 id="静态组件"><a href="#静态组件" class="header-anchor">#</a> 静态组件</h2> <img src="/blog/assets/img/tablePage.b7e43f10.png"> <h3 id="el-card-卡片上画图表"><a href="#el-card-卡片上画图表" class="header-anchor">#</a> el-card 卡片上画图表</h3> <p>BottomLeftCard组件做容器组件，里面划分一级结构，将卡片分为顶部标题和下部的图表区。而图表区又分为左右两个图表，每个图表都引入图表子组件进行绘制。同时通过插槽，向图表子组件传递模板内容进行显示。</p> <div class="language- extra-class"><pre class="language-text"><code>&lt;template&gt;
+    &lt;el-card&gt;
+		// 1、卡片的顶部标题
+        &lt;div slot=&quot;header&quot;&gt;
+            &lt;div class=&quot;header1&quot;&gt;
+            	&lt;span&gt;线上热门搜索&lt;/span&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        // 2、卡片的下部图表区
+        &lt;div&gt;
+            &lt;el-row :gutter=&quot;10&quot;&gt;
+            	// 2.1、左侧图表，引入图表子组件进行绘制。
+                &lt;el-col :span=&quot;12&quot;&gt;
+                	&lt;LineChart&gt;
+                		// 2.1.1、向LineChart组件内的footer插槽传递模板内容。
+                		&lt;template slot=&quot;footer&quot;&gt;
+              				&lt;span&gt;转化率&amp;nbsp;&amp;nbsp; 68%&lt;/span&gt;
+            			&lt;/template&gt;
+                	&lt;/LineChart&gt;
+                &lt;/el-col&gt;
+                // 2.2、右侧图表
+                &lt;el-col :span=&quot;12&quot;&gt;
+                    &lt;LineChart&gt;&lt;/LineChart&gt;
+                &lt;/el-col&gt;
+            &lt;/el-row&gt;
+        &lt;/div&gt;
+    &lt;/el-card&gt;
+&lt;/template&gt;
+export default {
+  name: 'BottomLeftCard',
+  components: {
+    LineChart,
+  }
+}
+</code></pre></div><p>LineChart做图表组件。同样在组件内划分为顶部标题区、中部数据区、中部图表区、底部文本区。其中标题区、数据区是正常文本；图表区定义一个container容器，具体的绘制在script里；底部文本区定义一个插槽，由父组件传递模板内容进行显示。</p> <div class="language- extra-class"><pre class="language-text"><code>&lt;template&gt;
+    &lt;div&gt;
+    	// 1、标题区、数据区
+    	&lt;div class=&quot;card-header&quot;&gt;
+    		&lt;span&gt;搜索用户数&lt;/span&gt;
+    	&lt;/div&gt;
+        &lt;div class=&quot;card-content&quot;&gt;12321 &amp;nbsp;&amp;nbsp; 17.6% &lt;img src=&quot;@/assets/up.svg&quot;&gt;&lt;/div&gt;
+        // 2、图表区
+        &lt;div class=&quot;card-chart&quot;&gt;
+        	&lt;div class=&quot;container&quot; ref=&quot;chart1&quot;&gt;&lt;/div&gt;
+        &lt;/div&gt;
+        // 3、文本区
+        &lt;div class=&quot;card-footer&quot;&gt;
+        	&lt;slot name=&quot;footer&quot;&gt;&lt;/slot&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/template&gt;
+</code></pre></div><h2 id="组件介绍"><a href="#组件介绍" class="header-anchor">#</a> 组件介绍</h2> <p>此组件功能是展示图表。将页面划分为不同的card卡片，在卡片内又划分不同的区域，比如标题区、图表区、文本区，具体的划分方法见上面的“卡片上画图表”。</p> <p>图表的数据来源是静态写死的，图表的绘制方式见下面代码：</p> <div class="language- extra-class"><pre class="language-text"><code>lineChart组件：
+&lt;template&gt;
+    &lt;div&gt;
+        ...
+        // 定义画布容器
+        &lt;div class=&quot;card-chart&quot;&gt;
+        	&lt;div class=&quot;container&quot; ref=&quot;chart1&quot;&gt;&lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/template&gt;
+
+&lt;script&gt;
+// 引入echarts 
+import echarts from 'echarts';
+export default {
+	name: 'LineChart',
+  	mounted () {
+    	// 初始化ECharts实例
+    	let lineChart = echarts.init(this.$refs.chart1);
+    	lineChart.setOption({
+    		// 给图表添加数据
+        	series: 
+        	[{
+          		type: 'line',
+          		data: [10, 5, 16, 12, 8, 9, 15, 13],
+        	}],
+      		...
+    	});
+	},
+}
+&lt;/script&gt;
+</code></pre></div><h2 id="划分结构的复用组件-子组件作为插槽传递"><a href="#划分结构的复用组件-子组件作为插槽传递" class="header-anchor">#</a> 划分结构的复用组件 &amp; 子组件作为插槽传递</h2> <p>下图中的图表部分，是当前页面的子组件，作为插槽内容被传递给另一个子组件。</p> <img src="data:image/png;base64,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"> <div class="language- extra-class"><pre class="language-text"><code>DashboardCard父组件：
+&lt;template&gt;
+	&lt;el-card&gt;
+		&lt;CardDetail title=&quot;访问量&quot; count=&quot;88498&quot;&gt;
+        	&lt;template slot=&quot;chart&quot;&gt;
+            	&lt;LineChart&gt;&lt;/LineChart&gt;
+            &lt;/template&gt;
+            &lt;template slot=&quot;footer&quot;&gt;
+                &lt;span&gt;日访问量&amp;nbsp;&amp;nbsp; 1315&lt;/span&gt;
+            &lt;/template&gt;
+        &lt;/CardDetail&gt;
+	&lt;/el-card&gt;
+&lt;/template&gt;
+export default {
+	name: 'DashboardCard',
+    components: {
+    	CardDetail, LineChart
+  }
+}
+</code></pre></div><div class="language- extra-class"><pre class="language-text"><code>CardDetail子组件：
+&lt;template&gt;
+    &lt;div&gt;
+        &lt;div class=&quot;card-header&quot;&gt;
+            &lt;span&gt;{{title}}&lt;/span&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;card-content&quot;&gt;{{count}}&lt;/div&gt;
+        &lt;div class=&quot;card-chart&quot;&gt;
+            &lt;slot name=&quot;chart&quot;&gt;&lt;/slot&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;card-footer&quot;&gt;
+            &lt;slot name=&quot;footer&quot;&gt;&lt;/slot&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/template&gt;
+export default {
+    name: 'CardDetail',
+    props:
+    	['title', 'count'],
+}
+</code></pre></div><p>使用CardDetail子组件进行页面区域划分，原因是，项目中有许多地方会用到CardDetail组件这样的区域划分，所以将其定义为一个组件，专门用来区域划分。</p> <p>CardDetail子组件分为四个区域。分别是：header区、content区、chart区、footer区。同时定义了具名插槽，由父组件为插槽区域传递模板内容。</p> <p>DashboardCard父组件使用这个划分结构的子组件，让其将页面上的某部分区域进行划分。然后使用向其传递数据，不仅传递了props数据，更是将LineChart子组件作为插槽内容，传递给CardDetail子组件进行显示。</p></div></section> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev"><a href="/blog/project02/09-SKU管理-Sku组件.html" class="prev">
+          09-SKU管理-Sku组件
+        </a></span> <!----></p></div> <div class="comments-wrapper"><!----></div></main></div> <!----></div> <ul class="sub-sidebar sub-sidebar-wrapper" style="width:12rem;" data-v-b57cc07c data-v-7dd95ae2><li class="level-2" data-v-b57cc07c><a href="/blog/project02/10-%E5%9B%BE%E8%A1%A8-DashBoard%E7%BB%84%E4%BB%B6.html#静态组件" class="sidebar-link reco-side-静态组件" data-v-b57cc07c>静态组件</a></li><li class="level-3" data-v-b57cc07c><a href="/blog/project02/10-%E5%9B%BE%E8%A1%A8-DashBoard%E7%BB%84%E4%BB%B6.html#el-card-卡片上画图表" class="sidebar-link reco-side-el-card-卡片上画图表" data-v-b57cc07c>el-card 卡片上画图表</a></li><li class="level-2" data-v-b57cc07c><a href="/blog/project02/10-%E5%9B%BE%E8%A1%A8-DashBoard%E7%BB%84%E4%BB%B6.html#组件介绍" class="sidebar-link reco-side-组件介绍" data-v-b57cc07c>组件介绍</a></li><li class="level-2" data-v-b57cc07c><a href="/blog/project02/10-%E5%9B%BE%E8%A1%A8-DashBoard%E7%BB%84%E4%BB%B6.html#划分结构的复用组件-子组件作为插槽传递" class="sidebar-link reco-side-划分结构的复用组件-子组件作为插槽传递" data-v-b57cc07c>划分结构的复用组件 &amp; 子组件作为插槽传递</a></li></ul></div></div></div><div class="global-ui"><div class="back-to-ceiling" style="right:1rem;bottom:6rem;width:2.5rem;height:2.5rem;border-radius:.25rem;line-height:2.5rem;display:none;" data-v-c6073ba8 data-v-c6073ba8><svg t="1574745035067" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="5404" class="icon" data-v-c6073ba8><path d="M526.60727968 10.90185116a27.675 27.675 0 0 0-29.21455937 0c-131.36607665 82.28402758-218.69155461 228.01873535-218.69155402 394.07834331a462.20625001 462.20625001 0 0 0 5.36959153 69.94390903c1.00431239 6.55289093-0.34802892 13.13561351-3.76865779 18.80351572-32.63518765 54.11355614-51.75690182 118.55860487-51.7569018 187.94566865a371.06718723 371.06718723 0 0 0 11.50484808 91.98906777c6.53300375 25.50556257 41.68394495 28.14064038 52.69160883 4.22606766 17.37162448-37.73630017 42.14135425-72.50938081 72.80769204-103.21549295 2.18761121 3.04276886 4.15646224 6.24463696 6.40373557 9.22774369a1871.4375 1871.4375 0 0 0 140.04691725 5.34970492 1866.36093723 1866.36093723 0 0 0 140.04691723-5.34970492c2.24727335-2.98310674 4.21612437-6.18497483 6.3937923-9.2178004 30.66633723 30.70611158 55.4360664 65.4791928 72.80769147 103.21549355 11.00766384 23.91457269 46.15860503 21.27949489 52.69160879-4.22606768a371.15156223 371.15156223 0 0 0 11.514792-91.99901164c0-69.36717486-19.13165746-133.82216804-51.75690182-187.92578088-3.42062944-5.66790279-4.76302748-12.26056868-3.76865837-18.80351632a462.20625001 462.20625001 0 0 0 5.36959269-69.943909c-0.00994388-166.08943902-87.32547796-311.81420293-218.6915546-394.09823051zM605.93803103 357.87693858a93.93749974 93.93749974 0 1 1-187.89594924 6.1e-7 93.93749974 93.93749974 0 0 1 187.89594924-6.1e-7z" p-id="5405" data-v-c6073ba8></path><path d="M429.50777625 765.63860547C429.50777625 803.39355007 466.44236686 1000.39046097 512.00932183 1000.39046097c45.56695499 0 82.4922232-197.00623328 82.5015456-234.7518555 0-37.75494459-36.9345906-68.35043303-82.4922232-68.34111062-45.57627738-0.00932239-82.52019037 30.59548842-82.51086798 68.34111062z" p-id="5406" data-v-c6073ba8></path></svg></div></div></div>
+    <script src="/blog/assets/js/app.da6f0918.js" defer></script><script src="/blog/assets/js/3.31f72e99.js" defer></script><script src="/blog/assets/js/1.66bfa7cb.js" defer></script><script src="/blog/assets/js/17.c4276fe9.js" defer></script>
+  </body>
+</html>
